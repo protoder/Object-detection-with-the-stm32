@@ -1,0 +1,27 @@
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/cmsis_nn/depthwise_conv.cc:53:7:void* tflite::{anonymous}::Init(TfLiteContext*, const char*, size_t)	2
+../Middlewares/tensorflow/tensorflow/lite/kernels/internal/runtime_shape.h:67:11:int32_t tflite::RuntimeShape::Dims(int) const	3
+../Middlewares/tensorflow/tensorflow/lite/kernels/internal/runtime_shape.h:133:12:int tflite::Offset(const RuntimeShape&, int, int, int, int)	18
+../Middlewares/tensorflow/tensorflow/lite/kernels/internal/types.h:265:12:int tflite::MatchingDim(const RuntimeShape&, int, const RuntimeShape&, int)	3
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/cmsis_nn/depthwise_conv.cc:58:14:TfLiteStatus tflite::{anonymous}::Prepare(TfLiteContext*, TfLiteNode*)	37
+../Middlewares/tensorflow/tensorflow/lite/kernels/internal/reference/depthwiseconv_float.h:25:13:void tflite::reference_ops::DepthwiseConv(const tflite::DepthwiseParams&, const tflite::RuntimeShape&, const float*, const tflite::RuntimeShape&, const float*, const tflite::RuntimeShape&, const float*, const tflite::RuntimeShape&, float*)	27
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/cmsis_nn/depthwise_conv.cc:511:18:TFLMRegistration tflite::Register_DEPTHWISE_CONV_2D()	1
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/cmsis_nn/depthwise_conv.cc:515:18:TFLMRegistration tflite::Register_DEPTHWISE_CONV_2D_INT8()	1
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/cmsis_nn/depthwise_conv.cc:519:18:TFLMRegistration tflite::Register_DEPTHWISE_CONV_2D_INT16()	1
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/cmsis_nn/depthwise_conv.cc:523:18:TFLMRegistration tflite::Register_DEPTHWISE_CONV_2D_INT4()	1
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/kernel_util.h:96:10:const T* tflite::micro::GetOptionalTensorData(const TfLiteEvalTensor*) [with T = signed char]	2
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/kernel_util.h:83:10:const T* tflite::micro::GetTensorData(const TfLiteEvalTensor*) [with T = signed char]	2
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/kernel_util.h:96:10:const T* tflite::micro::GetOptionalTensorData(const TfLiteEvalTensor*) [with T = long int]	2
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/kernel_util.h:76:4:T* tflite::micro::GetTensorData(TfLiteEvalTensor*) [with T = signed char]	2
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/cmsis_nn/depthwise_conv.cc:267:6:void tflite::{anonymous}::EvalQuantizedPerChannel(TfLiteContext*, TfLiteNode*, const TfLiteDepthwiseConvParams&, const OpData&, const TfLiteEvalTensor*, const TfLiteEvalTensor*, const TfLiteEvalTensor*, TfLiteEvalTensor*)	15
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/cmsis_nn/depthwise_conv.cc:437:14:TfLiteStatus tflite::{anonymous}::EvalInt8(TfLiteContext*, TfLiteNode*)	5
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/cmsis_nn/depthwise_conv.cc:303:6:void tflite::{anonymous}::EvalQuantizedPerChannelInt4(TfLiteContext*, TfLiteNode*, const TfLiteDepthwiseConvParams&, const OpData&, const TfLiteEvalTensor*, const TfLiteEvalTensor*, const TfLiteEvalTensor*, TfLiteEvalTensor*)	15
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/cmsis_nn/depthwise_conv.cc:485:14:TfLiteStatus tflite::{anonymous}::EvalInt4(TfLiteContext*, TfLiteNode*)	5
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/kernel_util.h:83:10:const T* tflite::micro::GetTensorData(const TfLiteEvalTensor*) [with T = short int]	2
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/kernel_util.h:96:10:const T* tflite::micro::GetOptionalTensorData(const TfLiteEvalTensor*) [with T = long long int]	2
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/kernel_util.h:76:4:T* tflite::micro::GetTensorData(TfLiteEvalTensor*) [with T = short int]	2
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/cmsis_nn/depthwise_conv.cc:340:6:void tflite::{anonymous}::EvalQuantizedPerChannel16x8(TfLiteContext*, TfLiteNode*, const TfLiteDepthwiseConvParams&, const OpData&, const TfLiteEvalTensor*, const TfLiteEvalTensor*, const TfLiteEvalTensor*, TfLiteEvalTensor*)	14
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/cmsis_nn/depthwise_conv.cc:461:14:TfLiteStatus tflite::{anonymous}::EvalInt16x8(TfLiteContext*, TfLiteNode*)	5
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/kernel_util.h:83:10:const T* tflite::micro::GetTensorData(const TfLiteEvalTensor*) [with T = float]	2
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/kernel_util.h:96:10:const T* tflite::micro::GetOptionalTensorData(const TfLiteEvalTensor*) [with T = float]	2
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/kernel_util.h:76:4:T* tflite::micro::GetTensorData(TfLiteEvalTensor*) [with T = float]	2
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/cmsis_nn/depthwise_conv.cc:373:14:TfLiteStatus tflite::{anonymous}::Eval(TfLiteContext*, TfLiteNode*)	10

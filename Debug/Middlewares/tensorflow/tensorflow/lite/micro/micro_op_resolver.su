@@ -1,0 +1,9 @@
+../Middlewares/tensorflow/third_party/flatbuffers/include/flatbuffers/base.h:425:24:T flatbuffers::EndianScalar(T) [with T = long unsigned int]	0	static
+../Middlewares/tensorflow/third_party/flatbuffers/include/flatbuffers/base.h:436:3:T flatbuffers::ReadScalar(const void*) [with T = long unsigned int]	8	static
+../Middlewares/tensorflow/third_party/flatbuffers/include/flatbuffers/base.h:425:24:T flatbuffers::EndianScalar(T) [with T = long int]	0	static
+../Middlewares/tensorflow/third_party/flatbuffers/include/flatbuffers/base.h:436:3:T flatbuffers::ReadScalar(const void*) [with T = long int]	8	static
+../Middlewares/tensorflow/third_party/flatbuffers/include/flatbuffers/base.h:425:24:T flatbuffers::EndianScalar(T) [with T = short unsigned int]	0	static
+../Middlewares/tensorflow/third_party/flatbuffers/include/flatbuffers/base.h:436:3:T flatbuffers::ReadScalar(const void*) [with T = short unsigned int]	8	static
+../Middlewares/tensorflow/third_party/flatbuffers/include/flatbuffers/table.h:35:13:flatbuffers::voffset_t flatbuffers::Table::GetOptionalFieldOffset(flatbuffers::voffset_t) const	16	static
+../Middlewares/tensorflow/third_party/flatbuffers/include/flatbuffers/table.h:51:5:P flatbuffers::Table::GetPointer(flatbuffers::voffset_t) [with P = const flatbuffers::String*; OffsetSize = long unsigned int]	8	static
+../Middlewares/tensorflow/tensorflow/lite/micro/micro_op_resolver.cc:24:14:TfLiteStatus tflite::GetRegistrationFromOpCode(const OperatorCode*, const MicroOpResolver&, const TFLMRegistration**)	24	static

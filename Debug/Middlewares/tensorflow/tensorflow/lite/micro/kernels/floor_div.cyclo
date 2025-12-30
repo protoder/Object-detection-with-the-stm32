@@ -1,0 +1,19 @@
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/floor_div.cc:60:7:void* tflite::{anonymous}::FloorDivInit(TfLiteContext*, const char*, size_t)	1
+../Middlewares/tensorflow/tensorflow/lite/kernels/internal/reference/floor_div.h:27:3:T tflite::reference_ops::FloorDiv(T, T) [with T = float]	1
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/floor_div.cc:34:14:TfLiteStatus tflite::{anonymous}::CalculateOpData(TfLiteContext*, TfLiteNode*)	12
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/floor_div.cc:64:14:TfLiteStatus tflite::{anonymous}::FloorDivPrepare(TfLiteContext*, TfLiteNode*)	1
+../Middlewares/tensorflow/tensorflow/lite/kernels/op_macros.h:24:13:void AbortImpl()	1
+../Middlewares/tensorflow/tensorflow/lite/kernels/internal/runtime_shape.h:67:11:int32_t tflite::RuntimeShape::Dims(int) const	1
+../Middlewares/tensorflow/tensorflow/lite/kernels/internal/runtime_shape.h:72:8:void tflite::RuntimeShape::SetDim(int, int32_t)	1
+../Middlewares/tensorflow/tensorflow/lite/kernels/internal/runtime_shape.h:109:3:tflite::RuntimeShape::RuntimeShape(int, const tflite::RuntimeShape&, int)	2
+../Middlewares/tensorflow/tensorflow/lite/kernels/internal/types.h:314:12:int tflite::MatchingFlatSize(const RuntimeShape&, const RuntimeShape&)	3
+../Middlewares/tensorflow/tensorflow/lite/kernels/internal/types.h:324:12:int tflite::MatchingFlatSize(const RuntimeShape&, const RuntimeShape&, const RuntimeShape&)	2
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/floor_div.cc:126:18:TFLMRegistration tflite::Register_FLOOR_DIV()	1
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/kernel_util.h:83:10:const T* tflite::micro::GetTensorData(const TfLiteEvalTensor*) [with T = float]	1
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/kernel_util.h:76:4:T* tflite::micro::GetTensorData(TfLiteEvalTensor*) [with T = float]	1
+../Middlewares/tensorflow/tensorflow/lite/kernels/internal/reference/binary_function.h:75:13:void tflite::reference_ops::BinaryFunction(const tflite::RuntimeShape&, const T1*, const tflite::RuntimeShape&, const T2*, const tflite::RuntimeShape&, R*, R (*)(T1, T2)) [with R = float; T1 = float; T2 = float]	2
+../Middlewares/tensorflow/tensorflow/lite/kernels/internal/common.h:1083:22:void tflite::CopyDimsToDesc(const RuntimeShape&, NdArrayDesc<N>*) [with int N = 4]	2
+../Middlewares/tensorflow/tensorflow/lite/kernels/internal/common.h:1094:13:void tflite::NdArrayDescsForElementwiseBroadcast(const RuntimeShape&, const RuntimeShape&, NdArrayDesc<N>*, NdArrayDesc<N>*) [with int N = 4]	4
+../Middlewares/tensorflow/tensorflow/lite/kernels/internal/reference/binary_function.h:30:13:void tflite::reference_ops::BroadcastBinaryFunction4DSlow(const tflite::RuntimeShape&, const T1*, const tflite::RuntimeShape&, const T2*, const tflite::RuntimeShape&, R*, R (*)(T1, T2)) [with R = float; T1 = float; T2 = float]	5
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/floor_div.cc:69:14:TfLiteStatus tflite::{anonymous}::EvalFloorDiv(TfLiteContext*, const TfLiteEvalTensor*, const TfLiteEvalTensor*, TfLiteEvalTensor*) [with T = float]	4
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/floor_div.cc:104:14:TfLiteStatus tflite::{anonymous}::FloorDivEval(TfLiteContext*, TfLiteNode*)	2

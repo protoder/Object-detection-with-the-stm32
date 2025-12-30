@@ -1,0 +1,317 @@
+################################################################################
+# Automatically-generated file. Do not edit!
+# Toolchain: GNU Tools for STM32 (13.3.rel1)
+################################################################################
+
+# Add inputs and outputs from these tool invocations to the build variables 
+CC_SRCS += \
+../08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/activations.cc \
+../08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/activations_common.cc \
+../08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/add_common.cc \
+../08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/add_n.cc \
+../08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/arg_min_max.cc \
+../08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/assign_variable.cc \
+../08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/batch_matmul_common.cc \
+../08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/batch_to_space_nd.cc \
+../08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/broadcast_args.cc \
+../08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/broadcast_to.cc \
+../08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/call_once.cc \
+../08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/cast.cc \
+../08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/ceil.cc \
+../08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/circular_buffer.cc \
+../08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/circular_buffer_common.cc \
+../08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/comparisons.cc \
+../08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/concatenation.cc \
+../08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/conv_common.cc \
+../08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/cumsum.cc \
+../08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/decompress.cc \
+../08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/decompress_common.cc \
+../08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/depth_to_space.cc \
+../08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/depthwise_conv_common.cc \
+../08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/dequantize.cc \
+../08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/dequantize_common.cc \
+../08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/detection_postprocess.cc \
+../08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/div.cc \
+../08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/elementwise.cc \
+../08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/elu.cc \
+../08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/embedding_lookup.cc \
+../08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/ethosu.cc \
+../08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/exp.cc \
+../08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/expand_dims.cc \
+../08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/fill.cc \
+../08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/floor.cc \
+../08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/floor_div.cc \
+../08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/floor_mod.cc \
+../08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/fully_connected_common.cc \
+../08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/gather.cc \
+../08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/gather_nd.cc \
+../08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/hard_swish.cc \
+../08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/hard_swish_common.cc \
+../08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/if.cc \
+../08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/kernel_runner.cc \
+../08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/kernel_util.cc \
+../08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/l2_pool_2d.cc \
+../08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/l2norm.cc \
+../08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/leaky_relu.cc \
+../08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/leaky_relu_common.cc \
+../08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/log_softmax.cc \
+../08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/logical.cc \
+../08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/logical_common.cc \
+../08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/logistic.cc \
+../08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/logistic_common.cc \
+../08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/lstm_eval.cc \
+../08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/lstm_eval_common.cc \
+../08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/micro_tensor_utils.cc \
+../08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/mirror_pad.cc \
+../08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/mul_common.cc \
+../08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/neg.cc \
+../08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/pack.cc \
+../08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/pad.cc \
+../08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/pooling_common.cc \
+../08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/prelu.cc \
+../08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/prelu_common.cc \
+../08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/quantize.cc \
+../08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/quantize_common.cc \
+../08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/read_variable.cc \
+../08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/reduce.cc \
+../08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/reduce_common.cc \
+../08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/reshape.cc \
+../08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/reshape_common.cc \
+../08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/resize_bilinear.cc \
+../08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/resize_nearest_neighbor.cc \
+../08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/round.cc \
+../08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/select.cc \
+../08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/shape.cc \
+../08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/slice.cc \
+../08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/softmax_common.cc \
+../08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/space_to_batch_nd.cc \
+../08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/space_to_depth.cc \
+../08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/split.cc \
+../08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/split_v.cc \
+../08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/squared_difference.cc \
+../08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/squeeze.cc \
+../08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/strided_slice.cc \
+../08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/strided_slice_common.cc \
+../08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/sub.cc \
+../08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/sub_common.cc \
+../08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/svdf_common.cc \
+../08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/tanh.cc \
+../08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/transpose.cc \
+../08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/unpack.cc \
+../08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/var_handle.cc \
+../08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/while.cc \
+../08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/zeros_like.cc 
+
+CC_DEPS += \
+./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/activations.d \
+./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/activations_common.d \
+./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/add_common.d \
+./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/add_n.d \
+./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/arg_min_max.d \
+./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/assign_variable.d \
+./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/batch_matmul_common.d \
+./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/batch_to_space_nd.d \
+./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/broadcast_args.d \
+./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/broadcast_to.d \
+./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/call_once.d \
+./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/cast.d \
+./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/ceil.d \
+./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/circular_buffer.d \
+./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/circular_buffer_common.d \
+./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/comparisons.d \
+./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/concatenation.d \
+./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/conv_common.d \
+./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/cumsum.d \
+./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/decompress.d \
+./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/decompress_common.d \
+./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/depth_to_space.d \
+./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/depthwise_conv_common.d \
+./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/dequantize.d \
+./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/dequantize_common.d \
+./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/detection_postprocess.d \
+./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/div.d \
+./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/elementwise.d \
+./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/elu.d \
+./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/embedding_lookup.d \
+./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/ethosu.d \
+./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/exp.d \
+./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/expand_dims.d \
+./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/fill.d \
+./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/floor.d \
+./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/floor_div.d \
+./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/floor_mod.d \
+./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/fully_connected_common.d \
+./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/gather.d \
+./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/gather_nd.d \
+./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/hard_swish.d \
+./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/hard_swish_common.d \
+./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/if.d \
+./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/kernel_runner.d \
+./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/kernel_util.d \
+./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/l2_pool_2d.d \
+./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/l2norm.d \
+./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/leaky_relu.d \
+./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/leaky_relu_common.d \
+./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/log_softmax.d \
+./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/logical.d \
+./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/logical_common.d \
+./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/logistic.d \
+./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/logistic_common.d \
+./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/lstm_eval.d \
+./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/lstm_eval_common.d \
+./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/micro_tensor_utils.d \
+./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/mirror_pad.d \
+./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/mul_common.d \
+./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/neg.d \
+./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/pack.d \
+./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/pad.d \
+./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/pooling_common.d \
+./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/prelu.d \
+./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/prelu_common.d \
+./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/quantize.d \
+./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/quantize_common.d \
+./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/read_variable.d \
+./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/reduce.d \
+./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/reduce_common.d \
+./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/reshape.d \
+./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/reshape_common.d \
+./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/resize_bilinear.d \
+./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/resize_nearest_neighbor.d \
+./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/round.d \
+./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/select.d \
+./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/shape.d \
+./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/slice.d \
+./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/softmax_common.d \
+./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/space_to_batch_nd.d \
+./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/space_to_depth.d \
+./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/split.d \
+./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/split_v.d \
+./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/squared_difference.d \
+./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/squeeze.d \
+./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/strided_slice.d \
+./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/strided_slice_common.d \
+./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/sub.d \
+./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/sub_common.d \
+./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/svdf_common.d \
+./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/tanh.d \
+./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/transpose.d \
+./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/unpack.d \
+./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/var_handle.d \
+./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/while.d \
+./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/zeros_like.d 
+
+OBJS += \
+./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/activations.o \
+./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/activations_common.o \
+./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/add_common.o \
+./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/add_n.o \
+./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/arg_min_max.o \
+./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/assign_variable.o \
+./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/batch_matmul_common.o \
+./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/batch_to_space_nd.o \
+./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/broadcast_args.o \
+./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/broadcast_to.o \
+./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/call_once.o \
+./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/cast.o \
+./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/ceil.o \
+./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/circular_buffer.o \
+./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/circular_buffer_common.o \
+./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/comparisons.o \
+./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/concatenation.o \
+./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/conv_common.o \
+./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/cumsum.o \
+./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/decompress.o \
+./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/decompress_common.o \
+./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/depth_to_space.o \
+./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/depthwise_conv_common.o \
+./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/dequantize.o \
+./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/dequantize_common.o \
+./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/detection_postprocess.o \
+./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/div.o \
+./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/elementwise.o \
+./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/elu.o \
+./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/embedding_lookup.o \
+./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/ethosu.o \
+./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/exp.o \
+./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/expand_dims.o \
+./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/fill.o \
+./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/floor.o \
+./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/floor_div.o \
+./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/floor_mod.o \
+./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/fully_connected_common.o \
+./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/gather.o \
+./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/gather_nd.o \
+./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/hard_swish.o \
+./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/hard_swish_common.o \
+./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/if.o \
+./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/kernel_runner.o \
+./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/kernel_util.o \
+./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/l2_pool_2d.o \
+./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/l2norm.o \
+./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/leaky_relu.o \
+./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/leaky_relu_common.o \
+./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/log_softmax.o \
+./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/logical.o \
+./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/logical_common.o \
+./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/logistic.o \
+./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/logistic_common.o \
+./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/lstm_eval.o \
+./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/lstm_eval_common.o \
+./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/micro_tensor_utils.o \
+./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/mirror_pad.o \
+./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/mul_common.o \
+./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/neg.o \
+./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/pack.o \
+./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/pad.o \
+./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/pooling_common.o \
+./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/prelu.o \
+./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/prelu_common.o \
+./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/quantize.o \
+./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/quantize_common.o \
+./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/read_variable.o \
+./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/reduce.o \
+./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/reduce_common.o \
+./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/reshape.o \
+./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/reshape_common.o \
+./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/resize_bilinear.o \
+./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/resize_nearest_neighbor.o \
+./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/round.o \
+./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/select.o \
+./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/shape.o \
+./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/slice.o \
+./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/softmax_common.o \
+./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/space_to_batch_nd.o \
+./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/space_to_depth.o \
+./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/split.o \
+./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/split_v.o \
+./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/squared_difference.o \
+./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/squeeze.o \
+./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/strided_slice.o \
+./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/strided_slice_common.o \
+./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/sub.o \
+./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/sub_common.o \
+./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/svdf_common.o \
+./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/tanh.o \
+./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/transpose.o \
+./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/unpack.o \
+./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/var_handle.o \
+./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/while.o \
+./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/zeros_like.o 
+
+
+# Each subdirectory must supply rules for building sources it contributes
+08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/%.o 08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/%.su 08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/%.cyclo: ../08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/%.cc 08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/subdir.mk
+	arm-none-eabi-g++ "$<" -mcpu=cortex-m7 -std=gnu++14 -g3 -DDEBUG -DUSE_PWR_LDO_SUPPLY -DTFLM_RUNTIME -DCMSIS_NN -DTFLM_RUNTIME_USE_ALL_OPERATORS=0 -DTF_LITE_STATIC_MEMORY -DTF_LITE_DISABLE_X86_NEON -DTF_LITE_MCU_DEBUG_LOG -DARM_MATH -DARM_MATH_LOOPUNROLL -DKERNELS_OPTIMIZED_FOR_SIZE -DARM_MATH_DSP -DARM_MATH_CM7 -D__FPU_PRESENT=1U -DUSE_HAL_DRIVER -DSTM32H723xx -c -I../Core/Inc -I../X-CUBE-AI/App -I../X-CUBE-AI -I../Middlewares/tensorflow/third_party/cmsis_nn/Include -I../Middlewares/tensorflow/third_party/kissfft -I../Middlewares/tensorflow -I../Middlewares/tensorflow/third_party/cmsis_nn/Include/Internal -I../Middlewares/tensorflow/third_party/cmsis_nn -I../Middlewares/tensorflow/third_party/flatbuffers/include -I../Middlewares/tensorflow/third_party/cmsis/CMSIS/Core/Include -I../Middlewares/tensorflow/third_party/gemmlowp -I../Middlewares/tensorflow/third_party/cmsis/CMSIS/Core -I../Middlewares/tensorflow/third_party/ruy -I../Drivers/STM32H7xx_HAL_Driver/Inc -I../Drivers/STM32H7xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H7xx/Include -Os -ffunction-sections -fdata-sections -fno-exceptions -fno-rtti -fno-use-cxa-atexit -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "$@"
+
+clean: clean-08-2d-DCMI2LCD-2f-Middlewares-2f-tensorflow-2f-tensorflow-2f-lite-2f-micro-2f-kernels
+
+clean-08-2d-DCMI2LCD-2f-Middlewares-2f-tensorflow-2f-tensorflow-2f-lite-2f-micro-2f-kernels:
+	-$(RM) ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/activations.cyclo ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/activations.d ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/activations.o ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/activations.su ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/activations_common.cyclo ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/activations_common.d ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/activations_common.o ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/activations_common.su ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/add_common.cyclo ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/add_common.d ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/add_common.o ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/add_common.su ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/add_n.cyclo ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/add_n.d ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/add_n.o ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/add_n.su ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/arg_min_max.cyclo ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/arg_min_max.d ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/arg_min_max.o ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/arg_min_max.su ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/assign_variable.cyclo ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/assign_variable.d ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/assign_variable.o ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/assign_variable.su ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/batch_matmul_common.cyclo ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/batch_matmul_common.d ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/batch_matmul_common.o ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/batch_matmul_common.su ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/batch_to_space_nd.cyclo ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/batch_to_space_nd.d ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/batch_to_space_nd.o ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/batch_to_space_nd.su ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/broadcast_args.cyclo ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/broadcast_args.d ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/broadcast_args.o ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/broadcast_args.su ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/broadcast_to.cyclo ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/broadcast_to.d ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/broadcast_to.o ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/broadcast_to.su ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/call_once.cyclo ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/call_once.d ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/call_once.o ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/call_once.su ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/cast.cyclo ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/cast.d ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/cast.o ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/cast.su ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/ceil.cyclo ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/ceil.d ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/ceil.o ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/ceil.su ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/circular_buffer.cyclo ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/circular_buffer.d ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/circular_buffer.o ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/circular_buffer.su ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/circular_buffer_common.cyclo ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/circular_buffer_common.d ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/circular_buffer_common.o ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/circular_buffer_common.su ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/comparisons.cyclo ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/comparisons.d ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/comparisons.o ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/comparisons.su ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/concatenation.cyclo ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/concatenation.d ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/concatenation.o ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/concatenation.su ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/conv_common.cyclo ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/conv_common.d ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/conv_common.o
+	-$(RM) ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/conv_common.su ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/cumsum.cyclo ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/cumsum.d ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/cumsum.o ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/cumsum.su ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/decompress.cyclo ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/decompress.d ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/decompress.o ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/decompress.su ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/decompress_common.cyclo ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/decompress_common.d ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/decompress_common.o ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/decompress_common.su ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/depth_to_space.cyclo ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/depth_to_space.d ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/depth_to_space.o ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/depth_to_space.su ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/depthwise_conv_common.cyclo ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/depthwise_conv_common.d ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/depthwise_conv_common.o ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/depthwise_conv_common.su ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/dequantize.cyclo ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/dequantize.d ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/dequantize.o ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/dequantize.su ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/dequantize_common.cyclo ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/dequantize_common.d ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/dequantize_common.o ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/dequantize_common.su ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/detection_postprocess.cyclo ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/detection_postprocess.d ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/detection_postprocess.o ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/detection_postprocess.su ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/div.cyclo ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/div.d ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/div.o ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/div.su ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/elementwise.cyclo ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/elementwise.d ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/elementwise.o ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/elementwise.su ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/elu.cyclo ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/elu.d ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/elu.o ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/elu.su ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/embedding_lookup.cyclo ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/embedding_lookup.d ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/embedding_lookup.o ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/embedding_lookup.su ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/ethosu.cyclo ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/ethosu.d ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/ethosu.o ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/ethosu.su ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/exp.cyclo ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/exp.d ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/exp.o ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/exp.su ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/expand_dims.cyclo ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/expand_dims.d ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/expand_dims.o ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/expand_dims.su ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/fill.cyclo ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/fill.d ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/fill.o ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/fill.su ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/floor.cyclo ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/floor.d ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/floor.o ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/floor.su ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/floor_div.cyclo ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/floor_div.d ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/floor_div.o ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/floor_div.su
+	-$(RM) ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/floor_mod.cyclo ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/floor_mod.d ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/floor_mod.o ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/floor_mod.su ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/fully_connected_common.cyclo ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/fully_connected_common.d ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/fully_connected_common.o ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/fully_connected_common.su ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/gather.cyclo ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/gather.d ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/gather.o ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/gather.su ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/gather_nd.cyclo ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/gather_nd.d ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/gather_nd.o ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/gather_nd.su ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/hard_swish.cyclo ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/hard_swish.d ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/hard_swish.o ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/hard_swish.su ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/hard_swish_common.cyclo ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/hard_swish_common.d ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/hard_swish_common.o ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/hard_swish_common.su ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/if.cyclo ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/if.d ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/if.o ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/if.su ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/kernel_runner.cyclo ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/kernel_runner.d ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/kernel_runner.o ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/kernel_runner.su ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/kernel_util.cyclo ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/kernel_util.d ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/kernel_util.o ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/kernel_util.su ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/l2_pool_2d.cyclo ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/l2_pool_2d.d ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/l2_pool_2d.o ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/l2_pool_2d.su ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/l2norm.cyclo ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/l2norm.d ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/l2norm.o ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/l2norm.su ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/leaky_relu.cyclo ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/leaky_relu.d ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/leaky_relu.o ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/leaky_relu.su ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/leaky_relu_common.cyclo ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/leaky_relu_common.d ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/leaky_relu_common.o ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/leaky_relu_common.su ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/log_softmax.cyclo ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/log_softmax.d ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/log_softmax.o ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/log_softmax.su ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/logical.cyclo ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/logical.d ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/logical.o ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/logical.su ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/logical_common.cyclo ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/logical_common.d ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/logical_common.o ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/logical_common.su ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/logistic.cyclo ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/logistic.d ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/logistic.o ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/logistic.su ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/logistic_common.cyclo ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/logistic_common.d ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/logistic_common.o ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/logistic_common.su
+	-$(RM) ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/lstm_eval.cyclo ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/lstm_eval.d ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/lstm_eval.o ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/lstm_eval.su ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/lstm_eval_common.cyclo ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/lstm_eval_common.d ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/lstm_eval_common.o ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/lstm_eval_common.su ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/micro_tensor_utils.cyclo ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/micro_tensor_utils.d ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/micro_tensor_utils.o ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/micro_tensor_utils.su ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/mirror_pad.cyclo ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/mirror_pad.d ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/mirror_pad.o ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/mirror_pad.su ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/mul_common.cyclo ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/mul_common.d ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/mul_common.o ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/mul_common.su ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/neg.cyclo ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/neg.d ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/neg.o ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/neg.su ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/pack.cyclo ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/pack.d ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/pack.o ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/pack.su ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/pad.cyclo ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/pad.d ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/pad.o ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/pad.su ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/pooling_common.cyclo ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/pooling_common.d ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/pooling_common.o ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/pooling_common.su ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/prelu.cyclo ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/prelu.d ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/prelu.o ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/prelu.su ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/prelu_common.cyclo ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/prelu_common.d ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/prelu_common.o ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/prelu_common.su ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/quantize.cyclo ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/quantize.d ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/quantize.o ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/quantize.su ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/quantize_common.cyclo ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/quantize_common.d ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/quantize_common.o ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/quantize_common.su ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/read_variable.cyclo ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/read_variable.d ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/read_variable.o ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/read_variable.su ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/reduce.cyclo ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/reduce.d ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/reduce.o ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/reduce.su ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/reduce_common.cyclo ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/reduce_common.d ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/reduce_common.o ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/reduce_common.su ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/reshape.cyclo ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/reshape.d ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/reshape.o ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/reshape.su ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/reshape_common.cyclo ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/reshape_common.d ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/reshape_common.o ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/reshape_common.su ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/resize_bilinear.cyclo
+	-$(RM) ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/resize_bilinear.d ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/resize_bilinear.o ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/resize_bilinear.su ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/resize_nearest_neighbor.cyclo ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/resize_nearest_neighbor.d ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/resize_nearest_neighbor.o ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/resize_nearest_neighbor.su ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/round.cyclo ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/round.d ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/round.o ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/round.su ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/select.cyclo ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/select.d ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/select.o ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/select.su ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/shape.cyclo ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/shape.d ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/shape.o ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/shape.su ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/slice.cyclo ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/slice.d ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/slice.o ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/slice.su ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/softmax_common.cyclo ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/softmax_common.d ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/softmax_common.o ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/softmax_common.su ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/space_to_batch_nd.cyclo ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/space_to_batch_nd.d ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/space_to_batch_nd.o ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/space_to_batch_nd.su ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/space_to_depth.cyclo ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/space_to_depth.d ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/space_to_depth.o ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/space_to_depth.su ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/split.cyclo ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/split.d ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/split.o ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/split.su ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/split_v.cyclo ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/split_v.d ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/split_v.o ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/split_v.su ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/squared_difference.cyclo ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/squared_difference.d ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/squared_difference.o ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/squared_difference.su ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/squeeze.cyclo ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/squeeze.d ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/squeeze.o ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/squeeze.su ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/strided_slice.cyclo ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/strided_slice.d ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/strided_slice.o ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/strided_slice.su ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/strided_slice_common.cyclo ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/strided_slice_common.d ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/strided_slice_common.o ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/strided_slice_common.su ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/sub.cyclo ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/sub.d ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/sub.o ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/sub.su ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/sub_common.cyclo ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/sub_common.d ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/sub_common.o ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/sub_common.su ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/svdf_common.cyclo ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/svdf_common.d ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/svdf_common.o ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/svdf_common.su ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/tanh.cyclo ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/tanh.d
+	-$(RM) ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/tanh.o ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/tanh.su ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/transpose.cyclo ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/transpose.d ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/transpose.o ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/transpose.su ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/unpack.cyclo ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/unpack.d ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/unpack.o ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/unpack.su ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/var_handle.cyclo ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/var_handle.d ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/var_handle.o ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/var_handle.su ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/while.cyclo ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/while.d ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/while.o ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/while.su ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/zeros_like.cyclo ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/zeros_like.d ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/zeros_like.o ./08-DCMI2LCD/Middlewares/tensorflow/tensorflow/lite/micro/kernels/zeros_like.su
+
+.PHONY: clean-08-2d-DCMI2LCD-2f-Middlewares-2f-tensorflow-2f-tensorflow-2f-lite-2f-micro-2f-kernels
+

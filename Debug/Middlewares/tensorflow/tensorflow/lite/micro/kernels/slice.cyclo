@@ -1,0 +1,27 @@
+../Middlewares/tensorflow/tensorflow/lite/kernels/op_macros.h:24:13:void AbortImpl()	1
+../Middlewares/tensorflow/tensorflow/lite/kernels/internal/runtime_shape.h:67:11:int32_t tflite::RuntimeShape::Dims(int) const	1
+../Middlewares/tensorflow/tensorflow/lite/kernels/internal/runtime_shape.h:72:8:void tflite::RuntimeShape::SetDim(int, int32_t)	1
+../Middlewares/tensorflow/tensorflow/lite/kernels/internal/runtime_shape.h:109:3:tflite::RuntimeShape::RuntimeShape(int, const tflite::RuntimeShape&, int)	2
+../Middlewares/tensorflow/tensorflow/lite/kernels/internal/runtime_shape.h:147:12:int tflite::Offset(const RuntimeShape&, int, int, int, int, int)	16
+../Middlewares/tensorflow/tensorflow/lite/kernels/kernel_util.h:171:16:int64_t tflite::NumElements(const int*, int)	3
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/slice.cc:47:14:TfLiteStatus tflite::{anonymous}::SlicePrepare(TfLiteContext*, TfLiteNode*)	7
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/slice.cc:160:18:TFLMRegistration tflite::Register_SLICE()	1
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/kernel_util.h:83:10:const T* tflite::micro::GetTensorData(const TfLiteEvalTensor*) [with T = float]	1
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/kernel_util.h:76:4:T* tflite::micro::GetTensorData(TfLiteEvalTensor*) [with T = float]	1
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/kernel_util.h:83:10:const T* tflite::micro::GetTensorData(const TfLiteEvalTensor*) [with T = long int]	1
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/slice.cc:37:6:void tflite::{anonymous}::GetBeginAndSizeVectors(int, const TfLiteEvalTensor*, const TfLiteEvalTensor*, int32_t*, int32_t*) [with T = long int]	2
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/kernel_util.h:76:4:T* tflite::micro::GetTensorData(TfLiteEvalTensor*) [with T = long int]	1
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/kernel_util.h:83:10:const T* tflite::micro::GetTensorData(const TfLiteEvalTensor*) [with T = signed char]	1
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/kernel_util.h:76:4:T* tflite::micro::GetTensorData(TfLiteEvalTensor*) [with T = signed char]	1
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/kernel_util.h:83:10:const T* tflite::micro::GetTensorData(const TfLiteEvalTensor*) [with T = short int]	1
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/kernel_util.h:76:4:T* tflite::micro::GetTensorData(TfLiteEvalTensor*) [with T = short int]	1
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/kernel_util.h:83:10:const T* tflite::micro::GetTensorData(const TfLiteEvalTensor*) [with T = bool]	1
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/kernel_util.h:76:4:T* tflite::micro::GetTensorData(TfLiteEvalTensor*) [with T = bool]	1
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/kernel_util.h:83:10:const T* tflite::micro::GetTensorData(const TfLiteEvalTensor*) [with T = long long int]	1
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/slice.cc:37:6:void tflite::{anonymous}::GetBeginAndSizeVectors(int, const TfLiteEvalTensor*, const TfLiteEvalTensor*, int32_t*, int32_t*) [with T = long long int]	2
+../Middlewares/tensorflow/tensorflow/lite/kernels/internal/reference/slice.h:26:13:void tflite::reference_ops::Slice(const tflite::SliceParams&, const tflite::RuntimeShape&, const tflite::RuntimeShape&, tflite::SequentialTensorWriter<T>*) [with T = float]	10
+../Middlewares/tensorflow/tensorflow/lite/kernels/internal/reference/slice.h:26:13:void tflite::reference_ops::Slice(const tflite::SliceParams&, const tflite::RuntimeShape&, const tflite::RuntimeShape&, tflite::SequentialTensorWriter<T>*) [with T = long int]	10
+../Middlewares/tensorflow/tensorflow/lite/kernels/internal/reference/slice.h:26:13:void tflite::reference_ops::Slice(const tflite::SliceParams&, const tflite::RuntimeShape&, const tflite::RuntimeShape&, tflite::SequentialTensorWriter<T>*) [with T = signed char]	10
+../Middlewares/tensorflow/tensorflow/lite/kernels/internal/reference/slice.h:26:13:void tflite::reference_ops::Slice(const tflite::SliceParams&, const tflite::RuntimeShape&, const tflite::RuntimeShape&, tflite::SequentialTensorWriter<T>*) [with T = short int]	10
+../Middlewares/tensorflow/tensorflow/lite/kernels/internal/reference/slice.h:26:13:void tflite::reference_ops::Slice(const tflite::SliceParams&, const tflite::RuntimeShape&, const tflite::RuntimeShape&, tflite::SequentialTensorWriter<T>*) [with T = bool]	10
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/slice.cc:84:14:TfLiteStatus tflite::{anonymous}::SliceEval(TfLiteContext*, TfLiteNode*)	9

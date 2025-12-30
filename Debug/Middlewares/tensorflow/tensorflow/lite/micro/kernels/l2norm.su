@@ -1,0 +1,44 @@
+../Middlewares/tensorflow/tensorflow/lite/kernels/op_macros.h:24:13:void AbortImpl()	8	static
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/l2norm.cc:75:7:void* tflite::{anonymous}::L2NormInit(TfLiteContext*, const char*, size_t)	8	static
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/l2norm.cc:36:14:TfLiteStatus tflite::{anonymous}::L2NormPrepare(TfLiteContext*, TfLiteNode*)	48	static
+../Middlewares/tensorflow/tensorflow/lite/kernels/internal/runtime_shape.h:67:11:int32_t tflite::RuntimeShape::Dims(int) const	8	static
+../Middlewares/tensorflow/tensorflow/lite/kernels/internal/types.h:265:12:int tflite::MatchingDim(const RuntimeShape&, int, const RuntimeShape&, int)	24	static
+../Middlewares/tensorflow/tensorflow/lite/kernels/internal/types.h:520:12:int tflite::FlatSizeSkipDim(const RuntimeShape&, int)	8	static
+../Middlewares/tensorflow/tensorflow/lite/kernels/internal/types.h:532:12:int tflite::MatchingFlatSizeSkipDim(const RuntimeShape&, int, const RuntimeShape&)	32	static
+../Middlewares/tensorflow/tensorflow/lite/kernels/internal/reference/l2normalization.h:29:13:void tflite::reference_ops::L2Normalization(const tflite::L2NormalizationParams&, const tflite::RuntimeShape&, const float*, const tflite::RuntimeShape&, float*, float)	48	static
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/l2norm.cc:134:18:TFLMRegistration tflite::Register_L2NORM_REF()	16	static
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/l2norm.cc:138:18:TFLMRegistration tflite::Register_L2_NORMALIZATION()	8	static
+../Middlewares/tensorflow/tensorflow/lite/kernels/internal/common.h:368:5:int tflite::CountLeadingZeros(T) [with T = long unsigned int]	0	static
+../Middlewares/tensorflow/third_party/gemmlowp/fixedpoint/fixedpoint.h:539:55:gemmlowp::FixedPoint<tRawType, (tIntegerBits_a + tIntegerBits_b)> gemmlowp::operator*(FixedPoint<tRawType, tIntegerBits_a>, FixedPoint<tRawType, tIntegerBits_b>) [with tRawType = long int; int tIntegerBits_a = 3; int tIntegerBits_b = 3]	0	static
+../Middlewares/tensorflow/third_party/gemmlowp/fixedpoint/fixedpoint.h:539:55:gemmlowp::FixedPoint<tRawType, (tIntegerBits_a + tIntegerBits_b)> gemmlowp::operator*(FixedPoint<tRawType, tIntegerBits_a>, FixedPoint<tRawType, tIntegerBits_b>) [with tRawType = long int; int tIntegerBits_a = 6; int tIntegerBits_b = 3]	0	static
+../Middlewares/tensorflow/third_party/gemmlowp/fixedpoint/fixedpoint.h:539:55:gemmlowp::FixedPoint<tRawType, (tIntegerBits_a + tIntegerBits_b)> gemmlowp::operator*(FixedPoint<tRawType, tIntegerBits_a>, FixedPoint<tRawType, tIntegerBits_b>) [with tRawType = long int; int tIntegerBits_a = 3; int tIntegerBits_b = 0]	0	static
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/kernel_util.h:83:10:const T* tflite::micro::GetTensorData(const TfLiteEvalTensor*) [with T = float]	8	static
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/kernel_util.h:76:4:T* tflite::micro::GetTensorData(TfLiteEvalTensor*) [with T = float]	8	static
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/kernel_util.h:83:10:const T* tflite::micro::GetTensorData(const TfLiteEvalTensor*) [with T = signed char]	8	static
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/kernel_util.h:76:4:T* tflite::micro::GetTensorData(TfLiteEvalTensor*) [with T = signed char]	8	static
+../Middlewares/tensorflow/third_party/gemmlowp/fixedpoint/fixedpoint.h:64:10:tRawType gemmlowp::Dup(typename FixedPointRawTypeTraits<tRawType>::ScalarRawType) [with tRawType = long int]	0	static
+../Middlewares/tensorflow/third_party/gemmlowp/fixedpoint/fixedpoint.h:508:21:static gemmlowp::FixedPoint<tRawType, tIntegerBits> gemmlowp::FixedPoint<tRawType, tIntegerBits>::One() [with tRawType = long int; int tIntegerBits = 3]	8	static
+../Middlewares/tensorflow/third_party/gemmlowp/fixedpoint/fixedpoint.h:70:14:tIntegerType gemmlowp::BitAnd(tIntegerType, tIntegerType) [with tIntegerType = long int]	0	static
+../Middlewares/tensorflow/third_party/gemmlowp/fixedpoint/fixedpoint.h:140:14:tIntegerType gemmlowp::ShiftRight(tIntegerType, int) [with tIntegerType = long int]	0	static
+../Middlewares/tensorflow/third_party/gemmlowp/fixedpoint/fixedpoint.h:94:14:tIntegerType gemmlowp::Add(tIntegerType, tIntegerType) [with tIntegerType = long int]	0	static
+../Middlewares/tensorflow/third_party/gemmlowp/fixedpoint/fixedpoint.h:105:14:tIntegerType gemmlowp::Sub(tIntegerType, tIntegerType) [with tIntegerType = long int]	0	static
+../Middlewares/tensorflow/third_party/gemmlowp/fixedpoint/fixedpoint.h:586:1:gemmlowp::FixedPoint<tRawType, tIntegerBits_a> gemmlowp::operator-(FixedPoint<tRawType, tIntegerBits_a>, FixedPoint<tRawType, tIntegerBits_a>) [with tRawType = long int; int tIntegerBits = 6]	8	static
+../Middlewares/tensorflow/third_party/gemmlowp/fixedpoint/fixedpoint.h:88:14:tIntegerType gemmlowp::BitNot(tIntegerType) [with tIntegerType = long int]	0	static
+../Middlewares/tensorflow/third_party/gemmlowp/fixedpoint/fixedpoint.h:156:14:tIntegerType gemmlowp::MaskIfNonZero(tIntegerType) [with tIntegerType = long int]	8	static
+../Middlewares/tensorflow/third_party/gemmlowp/fixedpoint/fixedpoint.h:199:14:tIntegerType gemmlowp::MaskIfLessThan(tIntegerType, tIntegerType) [with tIntegerType = long int]	8	static
+../Middlewares/tensorflow/third_party/gemmlowp/fixedpoint/fixedpoint.h:185:14:tIntegerType gemmlowp::MaskIfGreaterThan(tIntegerType, tIntegerType) [with tIntegerType = long int]	8	static
+../Middlewares/tensorflow/third_party/gemmlowp/fixedpoint/fixedpoint.h:357:20:IntegerType gemmlowp::RoundingDivideByPOT(IntegerType, int) [with IntegerType = long int]	32	static
+../Middlewares/tensorflow/third_party/gemmlowp/fixedpoint/fixedpoint.h:416:13:IntegerType gemmlowp::SaturatingRoundingMultiplyByPOT(IntegerType) [with int Exponent = -1; IntegerType = long int]	8	static
+../Middlewares/tensorflow/third_party/gemmlowp/fixedpoint/fixedpoint.h:559:36:gemmlowp::FixedPoint<tRawType, tIntegerBits> gemmlowp::SaturatingRoundingMultiplyByPOT(FixedPoint<tRawType, tIntegerBits>) [with int tExponent = -1; tRawType = long int; int tIntegerBits = 3]	8	static
+../Middlewares/tensorflow/third_party/gemmlowp/fixedpoint/fixedpoint.h:125:14:tIntegerType gemmlowp::ShiftLeft(tIntegerType, int) [with tIntegerType = long int]	0	static
+../Middlewares/tensorflow/third_party/gemmlowp/fixedpoint/fixedpoint.h:82:14:tIntegerType gemmlowp::BitXor(tIntegerType, tIntegerType) [with tIntegerType = long int]	0	static
+../Middlewares/tensorflow/third_party/gemmlowp/fixedpoint/fixedpoint.h:148:14:tIntegerType gemmlowp::SelectUsingMask(tIntegerType, tIntegerType, tIntegerType) [with tIntegerType = long int]	16	static
+../Middlewares/tensorflow/third_party/gemmlowp/fixedpoint/fixedpoint.h:385:22:static IntegerType gemmlowp::ImplSaturatingRoundingMultiplyByPOT<Exponent, IntegerType, 1>::eval(IntegerType) [with int Exponent = 6; IntegerType = long int]	24	static
+../Middlewares/tensorflow/third_party/gemmlowp/fixedpoint/fixedpoint.h:416:13:IntegerType gemmlowp::SaturatingRoundingMultiplyByPOT(IntegerType) [with int Exponent = 6; IntegerType = long int]	8	static
+../Middlewares/tensorflow/third_party/gemmlowp/fixedpoint/fixedpoint.h:668:39:gemmlowp::FixedPoint<tRawType, tIntegerBitsDst> gemmlowp::Rescale(FixedPoint<tRawType, tIntegerBits>) [with int tIntegerBitsDst = 3; tRawType = long int; int tIntegerBitsSrc = 9]	8	static
+../Middlewares/tensorflow/third_party/gemmlowp/fixedpoint/fixedpoint.h:385:22:static IntegerType gemmlowp::ImplSaturatingRoundingMultiplyByPOT<Exponent, IntegerType, 1>::eval(IntegerType) [with int Exponent = 3; IntegerType = long int]	24	static
+../Middlewares/tensorflow/third_party/gemmlowp/fixedpoint/fixedpoint.h:416:13:IntegerType gemmlowp::SaturatingRoundingMultiplyByPOT(IntegerType) [with int Exponent = 3; IntegerType = long int]	8	static
+../Middlewares/tensorflow/third_party/gemmlowp/fixedpoint/fixedpoint.h:668:39:gemmlowp::FixedPoint<tRawType, tIntegerBitsDst> gemmlowp::Rescale(FixedPoint<tRawType, tIntegerBits>) [with int tIntegerBitsDst = 3; tRawType = long int; int tIntegerBitsSrc = 6]	8	static
+../Middlewares/tensorflow/tensorflow/lite/kernels/internal/common.h:916:13:void tflite::GetInvSqrtQuantizedMultiplierExp(int32_t, int, int32_t*, int*)	40	static
+../Middlewares/tensorflow/tensorflow/lite/kernels/internal/reference/integer_ops/l2normalization.h:25:13:void tflite::reference_integer_ops::L2Normalization(int32_t, int32_t, int32_t, const int8_t*, int8_t*)	64	static
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/l2norm.cc:81:14:TfLiteStatus tflite::{anonymous}::L2NormEval(TfLiteContext*, TfLiteNode*)	144	static

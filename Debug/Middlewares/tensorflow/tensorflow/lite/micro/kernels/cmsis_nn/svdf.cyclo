@@ -1,0 +1,13 @@
+../Middlewares/tensorflow/tensorflow/lite/kernels/op_macros.h:24:13:void AbortImpl()	1
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/cmsis_nn/svdf.cc:54:7:void* tflite::{anonymous}::Init(TfLiteContext*, const char*, size_t)	1
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/cmsis_nn/svdf.cc:59:14:TfLiteStatus tflite::{anonymous}::CmsisNnPrepareSvdf(TfLiteContext*, TfLiteNode*)	44
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/cmsis_nn/svdf.cc:437:18:TFLMRegistration tflite::Register_SVDF()	1
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/cmsis_nn/svdf.cc:441:18:TFLMRegistration tflite::Register_SVDF_INT8()	1
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/kernel_util.h:76:4:T* tflite::micro::GetTensorData(TfLiteEvalTensor*) [with T = signed char]	1
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/kernel_util.h:83:10:const T* tflite::micro::GetTensorData(const TfLiteEvalTensor*) [with T = signed char]	1
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/kernel_util.h:83:10:const T* tflite::micro::GetTensorData(const TfLiteEvalTensor*) [with T = long int]	1
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/kernel_util.h:76:4:T* tflite::micro::GetTensorData(TfLiteEvalTensor*) [with T = short int]	1
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/kernel_util.h:83:10:const T* tflite::micro::GetTensorData(const TfLiteEvalTensor*) [with T = short int]	1
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/cmsis_nn/svdf.cc:242:14:TfLiteStatus tflite::{anonymous}::EvalIntegerSVDF(TfLiteContext*, TfLiteNode*, const TfLiteEvalTensor*, const TfLiteEvalTensor*, const TfLiteEvalTensor*, const TfLiteEvalTensor*, const TfLiteSVDFParams*, TfLiteEvalTensor*, TfLiteEvalTensor*, const CmsisNnOpDataSvdf&)	3
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/cmsis_nn/svdf.cc:361:14:TfLiteStatus tflite::{anonymous}::EvalSvdf(TfLiteContext*, TfLiteNode*)	6
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/cmsis_nn/svdf.cc:405:14:TfLiteStatus tflite::{anonymous}::EvalSvdfInt8(TfLiteContext*, TfLiteNode*)	3

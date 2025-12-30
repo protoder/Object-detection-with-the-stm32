@@ -1,0 +1,1 @@
+../Middlewares/tensorflow/third_party/cmsis_nn/Source/ConvolutionFunctions/arm_depthwise_conv_s8_opt.c:51:21:arm_depthwise_conv_s8_opt	168	static,ignoring_inline_asm

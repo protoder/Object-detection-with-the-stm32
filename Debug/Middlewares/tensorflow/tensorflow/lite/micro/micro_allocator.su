@@ -1,0 +1,81 @@
+../Middlewares/tensorflow/tensorflow/lite/micro/micro_allocator.cc:68:9:virtual void* tflite::{anonymous}::MicroBuiltinDataAllocator::Allocate(size_t, size_t)	8	static
+../Middlewares/tensorflow/tensorflow/lite/micro/micro_allocator.cc:72:8:virtual void tflite::{anonymous}::MicroBuiltinDataAllocator::Deallocate(void*)	0	static
+../Middlewares/tensorflow/tensorflow/lite/micro/micro_allocator.cc:129:14:TfLiteStatus tflite::{anonymous}::CommitPlan(tflite::MicroMemoryPlanner*, uint8_t*, const tflite::AllocationInfo*, size_t)	48	static
+../Middlewares/tensorflow/tensorflow/lite/micro/micro_allocator.cc:540:1:tflite::MicroAllocator::~MicroAllocator()	0	static
+../Middlewares/tensorflow/tensorflow/lite/micro/micro_allocator.cc:540:1:virtual tflite::MicroAllocator::~MicroAllocator()	8	static
+../Middlewares/tensorflow/tensorflow/lite/micro/micro_allocator.cc:690:7:virtual void* tflite::MicroAllocator::AllocatePersistentBuffer(size_t)	8	static
+../Middlewares/tensorflow/tensorflow/lite/micro/micro_allocator.cc:901:10:virtual uint8_t* tflite::MicroAllocator::AllocateTempBuffer(size_t, size_t)	8	static
+../Middlewares/tensorflow/tensorflow/lite/micro/micro_allocator.cc:905:6:virtual void tflite::MicroAllocator::DeallocateTempBuffer(uint8_t*)	8	static
+../Middlewares/tensorflow/tensorflow/lite/micro/micro_allocator.cc:909:14:virtual TfLiteStatus tflite::MicroAllocator::ResetTempAllocations()	8	static
+../Middlewares/tensorflow/tensorflow/lite/micro/micro_allocator.cc:913:6:virtual bool tflite::MicroAllocator::IsAllTempDeallocated()	8	static
+../Middlewares/tensorflow/tensorflow/lite/micro/micro_allocator.cc:1093:15:virtual TfLiteTensor* tflite::MicroAllocator::AllocatePersistentTfLiteTensorInternal()	8	static
+../Middlewares/tensorflow/tensorflow/lite/micro/micro_allocator.cc:62:7:tflite::{anonymous}::MicroBuiltinDataAllocator::~MicroBuiltinDataAllocator()	0	static
+../Middlewares/tensorflow/tensorflow/lite/micro/micro_allocator.cc:62:7:virtual tflite::{anonymous}::MicroBuiltinDataAllocator::~MicroBuiltinDataAllocator()	0	static
+../Middlewares/tensorflow/tensorflow/lite/micro/memory_helpers.h:38:8:size_t tflite::AlignSizeUp(size_t) [with T = {anonymous}::MicroBuiltinDataAllocator]	8	static
+../Middlewares/tensorflow/tensorflow/lite/micro/micro_allocator.cc:106:14:TfLiteStatus tflite::{anonymous}::CreatePlan(tflite::MicroMemoryPlanner*, const tflite::AllocationInfo*, size_t)	40	static
+../Middlewares/tensorflow/tensorflow/lite/micro/micro_allocator.cc:83:21:tflite::MicroMemoryPlanner* tflite::{anonymous}::CreateMemoryPlanner(tflite::MemoryPlannerType, tflite::IPersistentBufferAllocator*)	8	static
+../Middlewares/tensorflow/tensorflow/lite/micro/micro_allocator.cc:147:29:tflite::IPersistentBufferAllocator* tflite::{anonymous}::CreatePersistentArenaAllocator(uint8_t*, size_t)	24	static
+../Middlewares/tensorflow/tensorflow/lite/micro/micro_allocator.cc:170:32:tflite::INonPersistentBufferAllocator* tflite::{anonymous}::CreateNonPersistentArenaAllocator(uint8_t*, size_t, tflite::IPersistentBufferAllocator*)	16	static
+../Middlewares/tensorflow/tensorflow/lite/kernels/op_macros.h:24:13:void AbortImpl()	8	static
+../Middlewares/tensorflow/tensorflow/lite/micro/micro_allocator.cc:838:6:virtual void tflite::MicroAllocator::DeallocateTempTfLiteTensor(TfLiteTensor*)	16	static
+../Middlewares/tensorflow/tensorflow/lite/micro/micro_allocator.cc:1209:14:virtual TfLiteStatus tflite::MicroAllocator::AllocateScratchBufferHandles(tflite::ScratchBufferHandle**, size_t)	16	static
+../Middlewares/tensorflow/tensorflow/lite/micro/micro_allocator.cc:524:1:tflite::MicroAllocator::MicroAllocator(tflite::SingleArenaBufferAllocator*, tflite::MicroMemoryPlanner*)	0	static
+../Middlewares/tensorflow/tensorflow/lite/micro/micro_allocator.cc:531:1:tflite::MicroAllocator::MicroAllocator(tflite::IPersistentBufferAllocator*, tflite::INonPersistentBufferAllocator*, tflite::MicroMemoryPlanner*)	4	static
+../Middlewares/tensorflow/tensorflow/lite/micro/micro_allocator.cc:569:17:static tflite::MicroAllocator* tflite::MicroAllocator::Create(tflite::SingleArenaBufferAllocator*, tflite::MicroMemoryPlanner*)	16	static
+../Middlewares/tensorflow/tensorflow/lite/micro/micro_allocator.cc:542:17:static tflite::MicroAllocator* tflite::MicroAllocator::Create(uint8_t*, size_t, tflite::MicroMemoryPlanner*)	16	static
+../Middlewares/tensorflow/tensorflow/lite/micro/micro_allocator.cc:553:17:static tflite::MicroAllocator* tflite::MicroAllocator::Create(uint8_t*, size_t, tflite::MemoryPlannerType)	16	static
+../Middlewares/tensorflow/tensorflow/lite/micro/micro_allocator.cc:582:17:static tflite::MicroAllocator* tflite::MicroAllocator::Create(uint8_t*, size_t, uint8_t*, size_t, tflite::MemoryPlannerType)	24	static
+../Middlewares/tensorflow/tensorflow/lite/micro/micro_allocator.cc:669:14:TfLiteStatus tflite::MicroAllocator::FinishModelAllocation(const tflite::Model*, tflite::SubgraphAllocations*, tflite::ScratchBufferHandle**)	24	static
+../Middlewares/tensorflow/tensorflow/lite/micro/micro_allocator.cc:766:8:size_t tflite::MicroAllocator::used_bytes() const	16	static
+../Middlewares/tensorflow/tensorflow/lite/micro/micro_allocator.cc:1228:14:TfLiteStatus tflite::MicroAllocator::InitScratchBufferData()	8	static
+../Middlewares/tensorflow/tensorflow/lite/micro/micro_allocator.cc:1247:33:tflite::internal::ScratchBufferRequest* tflite::MicroAllocator::GetScratchBufferRequests()	8	static
+../Middlewares/tensorflow/tensorflow/lite/micro/micro_allocator.cc:695:14:TfLiteStatus tflite::MicroAllocator::RequestScratchBufferInArena(size_t, int, int*)	24	static
+../Middlewares/tensorflow/tensorflow/lite/micro/micro_allocator.cc:736:14:TfLiteStatus tflite::MicroAllocator::FinishPrepareNodeAllocations(int)	16	static
+../Middlewares/tensorflow/tensorflow/lite/micro/micro_allocator.cc:1252:35:tflite::TfLiteBridgeBuiltinDataAllocator* tflite::MicroAllocator::GetBuiltinDataAllocator()	0	static
+../Middlewares/tensorflow/third_party/flatbuffers/include/flatbuffers/base.h:425:24:T flatbuffers::EndianScalar(T) [with T = long unsigned int]	0	static
+../Middlewares/tensorflow/third_party/flatbuffers/include/flatbuffers/base.h:436:3:T flatbuffers::ReadScalar(const void*) [with T = long unsigned int]	8	static
+../Middlewares/tensorflow/third_party/flatbuffers/include/flatbuffers/vector.h:175:15:flatbuffers::Vector<T, SizeT>::return_type flatbuffers::Vector<T, SizeT>::Get(SizeT) const [with T = flatbuffers::Offset<tflite::Tensor>; SizeT = long unsigned int]	16	static
+../Middlewares/tensorflow/third_party/flatbuffers/include/flatbuffers/vector.h:175:15:flatbuffers::Vector<T, SizeT>::return_type flatbuffers::Vector<T, SizeT>::Get(SizeT) const [with T = flatbuffers::Offset<tflite::SubGraph>; SizeT = long unsigned int]	16	static
+../Middlewares/tensorflow/third_party/flatbuffers/include/flatbuffers/vector.h:175:15:flatbuffers::Vector<T, SizeT>::return_type flatbuffers::Vector<T, SizeT>::Get(SizeT) const [with T = flatbuffers::Offset<tflite::Buffer>; SizeT = long unsigned int]	16	static
+../Middlewares/tensorflow/tensorflow/lite/micro/memory_helpers.h:38:8:size_t tflite::AlignSizeUp(size_t) [with T = SingleArenaBufferAllocator]	8	static
+../Middlewares/tensorflow/tensorflow/lite/micro/memory_helpers.h:38:8:size_t tflite::AlignSizeUp(size_t) [with T = MicroAllocator]	8	static
+../Middlewares/tensorflow/tensorflow/lite/micro/memory_helpers.h:38:8:size_t tflite::AlignSizeUp(size_t) [with T = SubgraphAllocations]	8	static
+../Middlewares/tensorflow/tensorflow/lite/micro/memory_helpers.h:38:8:size_t tflite::AlignSizeUp(size_t) [with T = GreedyMemoryPlanner]	8	static
+../Middlewares/tensorflow/tensorflow/lite/micro/micro_allocator.cc:513:8:static size_t tflite::MicroAllocator::GetDefaultTailUsage(bool)	16	static
+../Middlewares/tensorflow/third_party/flatbuffers/include/flatbuffers/base.h:425:24:T flatbuffers::EndianScalar(T) [with T = long int]	0	static
+../Middlewares/tensorflow/third_party/flatbuffers/include/flatbuffers/base.h:436:3:T flatbuffers::ReadScalar(const void*) [with T = long int]	8	static
+../Middlewares/tensorflow/third_party/flatbuffers/include/flatbuffers/base.h:425:24:T flatbuffers::EndianScalar(T) [with T = short unsigned int]	0	static
+../Middlewares/tensorflow/third_party/flatbuffers/include/flatbuffers/base.h:436:3:T flatbuffers::ReadScalar(const void*) [with T = short unsigned int]	8	static
+../Middlewares/tensorflow/third_party/flatbuffers/include/flatbuffers/table.h:35:13:flatbuffers::voffset_t flatbuffers::Table::GetOptionalFieldOffset(flatbuffers::voffset_t) const	16	static
+../Middlewares/tensorflow/third_party/flatbuffers/include/flatbuffers/table.h:45:26:T flatbuffers::Table::GetField(flatbuffers::voffset_t, T) const [with T = long unsigned int]	16	static
+../Middlewares/tensorflow/third_party/flatbuffers/include/flatbuffers/table.h:45:26:T flatbuffers::Table::GetField(flatbuffers::voffset_t, T) const [with T = long int]	16	static
+../Middlewares/tensorflow/third_party/flatbuffers/include/flatbuffers/base.h:425:24:T flatbuffers::EndianScalar(T) [with T = unsigned char]	0	static
+../Middlewares/tensorflow/third_party/flatbuffers/include/flatbuffers/base.h:436:3:T flatbuffers::ReadScalar(const void*) [with T = unsigned char]	8	static
+../Middlewares/tensorflow/third_party/flatbuffers/include/flatbuffers/table.h:45:26:T flatbuffers::Table::GetField(flatbuffers::voffset_t, T) const [with T = unsigned char]	16	static
+../Middlewares/tensorflow/third_party/flatbuffers/include/flatbuffers/base.h:425:24:T flatbuffers::EndianScalar(T) [with T = long long int]	0	static
+../Middlewares/tensorflow/third_party/flatbuffers/include/flatbuffers/base.h:425:24:T flatbuffers::EndianScalar(T) [with T = float]	0	static
+../Middlewares/tensorflow/third_party/flatbuffers/include/flatbuffers/vector.h:175:15:flatbuffers::Vector<T, SizeT>::return_type flatbuffers::Vector<T, SizeT>::Get(SizeT) const [with T = float; SizeT = long unsigned int]	16	static
+../Middlewares/tensorflow/third_party/flatbuffers/include/flatbuffers/table.h:51:5:P flatbuffers::Table::GetPointer(flatbuffers::voffset_t) [with P = const flatbuffers::Vector<unsigned char>*; OffsetSize = long unsigned int]	8	static
+../Middlewares/tensorflow/tensorflow/lite/micro/micro_allocator.cc:195:7:void* tflite::internal::GetFlatbufferTensorBuffer(const tflite::Tensor&, const flatbuffers::Vector<flatbuffers::Offset<tflite::Buffer> >*)	8	static
+../Middlewares/tensorflow/third_party/flatbuffers/include/flatbuffers/table.h:51:5:P flatbuffers::Table::GetPointer(flatbuffers::voffset_t) [with P = const flatbuffers::Vector<float>*; OffsetSize = long unsigned int]	8	static
+../Middlewares/tensorflow/third_party/flatbuffers/include/flatbuffers/table.h:51:5:P flatbuffers::Table::GetPointer(flatbuffers::voffset_t) [with P = const flatbuffers::Vector<long long int>*; OffsetSize = long unsigned int]	8	static
+../Middlewares/tensorflow/third_party/flatbuffers/include/flatbuffers/table.h:51:5:P flatbuffers::Table::GetPointer(flatbuffers::voffset_t) [with P = const flatbuffers::Vector<long int>*; OffsetSize = long unsigned int]	8	static
+../Middlewares/tensorflow/third_party/flatbuffers/include/flatbuffers/table.h:51:5:P flatbuffers::Table::GetPointer(flatbuffers::voffset_t) [with P = const tflite::QuantizationParameters*; OffsetSize = long unsigned int]	8	static
+../Middlewares/tensorflow/third_party/flatbuffers/include/flatbuffers/table.h:51:5:P flatbuffers::Table::GetPointer(flatbuffers::voffset_t) [with P = const flatbuffers::Vector<flatbuffers::Offset<tflite::Tensor> >*; OffsetSize = long unsigned int]	8	static
+../Middlewares/tensorflow/tensorflow/lite/micro/micro_allocator.cc:1066:14:virtual TfLiteStatus tflite::MicroAllocator::AllocateVariables(const tflite::SubGraph*, TfLiteEvalTensor*, const int32_t*)	40	static
+../Middlewares/tensorflow/third_party/flatbuffers/include/flatbuffers/table.h:51:5:P flatbuffers::Table::GetPointer(flatbuffers::voffset_t) [with P = const flatbuffers::Vector<flatbuffers::Offset<tflite::SubGraph> >*; OffsetSize = long unsigned int]	8	static
+../Middlewares/tensorflow/tensorflow/lite/micro/micro_allocator.cc:625:22:tflite::SubgraphAllocations* tflite::MicroAllocator::StartModelAllocation(const tflite::Model*)	24	static
+../Middlewares/tensorflow/tensorflow/lite/micro/micro_allocator.cc:771:14:virtual TfLiteStatus tflite::MicroAllocator::AllocateNodeAndRegistrations(const tflite::Model*, tflite::SubgraphAllocations*)	24	static
+../Middlewares/tensorflow/tensorflow/lite/micro/micro_allocator.cc:796:15:virtual TfLiteTensor* tflite::MicroAllocator::AllocatePersistentTfLiteTensor(const tflite::Model*, const tflite::SubgraphAllocations*, int, int)	40	static
+../Middlewares/tensorflow/tensorflow/lite/micro/micro_allocator.cc:862:15:virtual TfLiteTensor* tflite::MicroAllocator::AllocateTempTfLiteTensor(const tflite::Model*, const tflite::SubgraphAllocations*, int, int)	40	static
+../Middlewares/tensorflow/tensorflow/lite/micro/micro_allocator.cc:1112:14:virtual TfLiteStatus tflite::MicroAllocator::CommitStaticMemoryPlan(const tflite::Model*, tflite::SubgraphAllocations*, tflite::ScratchBufferHandle*)	80	static
+../Middlewares/tensorflow/third_party/flatbuffers/include/flatbuffers/table.h:51:5:P flatbuffers::Table::GetPointer(flatbuffers::voffset_t) [with P = const flatbuffers::Vector<flatbuffers::Offset<tflite::Buffer> >*; OffsetSize = long unsigned int]	8	static
+../Middlewares/tensorflow/third_party/flatbuffers/include/flatbuffers/buffer.h:98:22:static flatbuffers::IndirectHelper<T>::return_type flatbuffers::IndirectHelper<T>::Read(const uint8_t*, size_t) [with T = long long int]	8	static
+../Middlewares/tensorflow/third_party/flatbuffers/include/flatbuffers/vector.h:175:15:flatbuffers::Vector<T, SizeT>::return_type flatbuffers::Vector<T, SizeT>::Get(SizeT) const [with T = long long int; SizeT = long unsigned int]	16	static
+../Middlewares/tensorflow/third_party/flatbuffers/include/flatbuffers/base.h:425:24:T flatbuffers::EndianScalar(T) [with T = signed char]	0	static
+../Middlewares/tensorflow/third_party/flatbuffers/include/flatbuffers/base.h:436:3:T flatbuffers::ReadScalar(const void*) [with T = signed char]	8	static
+../Middlewares/tensorflow/third_party/flatbuffers/include/flatbuffers/table.h:45:26:T flatbuffers::Table::GetField(flatbuffers::voffset_t, T) const [with T = signed char]	16	static
+../Middlewares/tensorflow/tensorflow/lite/micro/micro_allocator.cc:225:14:TfLiteStatus tflite::internal::InitializeTfLiteTensorFromFlatbuffer(tflite::IPersistentBufferAllocator*, tflite::INonPersistentBufferAllocator*, bool, const tflite::Tensor&, const flatbuffers::Vector<flatbuffers::Offset<tflite::Buffer> >*, TfLiteTensor*)	56	static
+../Middlewares/tensorflow/tensorflow/lite/micro/micro_allocator.cc:1099:14:virtual TfLiteStatus tflite::MicroAllocator::PopulateTfLiteTensorFromFlatbuffer(const tflite::Model*, TfLiteTensor*, int, int, bool)	32	static
+../Middlewares/tensorflow/tensorflow/lite/micro/micro_allocator.cc:345:14:TfLiteStatus tflite::internal::InitializeTfLiteEvalTensorFromFlatbuffer(const tflite::Tensor&, const flatbuffers::Vector<flatbuffers::Offset<tflite::Buffer> >*, TfLiteEvalTensor*)	24	static
+../Middlewares/tensorflow/tensorflow/lite/micro/micro_allocator.cc:1032:14:virtual TfLiteStatus tflite::MicroAllocator::AllocateTfLiteEvalTensors(const tflite::Model*, tflite::SubgraphAllocations*)	48	static

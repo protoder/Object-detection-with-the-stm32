@@ -1,0 +1,6 @@
+../Middlewares/tensorflow/tensorflow/lite/kernels/op_macros.h:24:13:void AbortImpl()	8	static
+../Middlewares/tensorflow/tensorflow/lite/kernels/kernel_util.h:171:16:int64_t tflite::NumElements(const int*, int)	40	static
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/assign_variable.cc:53:14:TfLiteStatus tflite::{anonymous}::Prepare(TfLiteContext*, TfLiteNode*)	48	static
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/assign_variable.cc:148:18:TFLMRegistration tflite::Register_ASSIGN_VARIABLE()	16	static
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/kernel_util.h:83:10:const T* tflite::micro::GetTensorData(const TfLiteEvalTensor*) [with T = void]	8	static
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/assign_variable.cc:103:14:TfLiteStatus tflite::{anonymous}::Eval(TfLiteContext*, TfLiteNode*)	24	static

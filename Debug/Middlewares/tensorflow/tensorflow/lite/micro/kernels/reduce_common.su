@@ -1,0 +1,45 @@
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/reduce_common.cc:256:7:static float tflite::EvalMaxHelper(TfLiteContext*, TfLiteNode*, OpDataReduce*)::<lambda(float, float)>::_FUN(float, float)	0	static
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/reduce_common.cc:273:7:static int8_t tflite::EvalMaxHelper(TfLiteContext*, TfLiteNode*, OpDataReduce*)::<lambda(int8_t, int8_t)>::_FUN(int8_t, int8_t)	0	static
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/reduce_common.cc:309:7:static float tflite::EvalSumHelper(TfLiteContext*, TfLiteNode*, OpDataReduce*)::<lambda(float, float)>::_FUN(float, float)	0	static
+../Middlewares/tensorflow/tensorflow/lite/kernels/internal/reference/reduce.h:149:18:static float tflite::reference_ops::ReduceSumImpl<float, float>(const float*, const int*, const int*, int, int, const int*, int, int*, float*)::<lambda(float, float)>::_FUN(float, float)	0	static
+../Middlewares/tensorflow/tensorflow/lite/kernels/internal/reference/reduce.h:149:18:static long int tflite::reference_ops::ReduceSumImpl<signed char, long int>(const signed char*, const int*, const int*, int, int, const int*, int, int*, long int*)::<lambda(long int, signed char)>::_FUN(long int, signed char)	0	static
+../Middlewares/tensorflow/tensorflow/lite/kernels/internal/reference/reduce.h:149:18:static long int tflite::reference_ops::ReduceSumImpl<short int, long int>(const short int*, const int*, const int*, int, int, const int*, int, int*, long int*)::<lambda(long int, short int)>::_FUN(long int, short int)	0	static
+../Middlewares/tensorflow/tensorflow/lite/kernels/op_macros.h:24:13:void AbortImpl()	8	static
+../Middlewares/tensorflow/tensorflow/lite/kernels/internal/runtime_shape.h:72:8:void tflite::RuntimeShape::SetDim(int, int32_t)	8	static
+../Middlewares/tensorflow/tensorflow/lite/kernels/internal/runtime_shape.h:109:3:tflite::RuntimeShape::RuntimeShape(int, const tflite::RuntimeShape&, int)	24	static
+../Middlewares/tensorflow/tensorflow/lite/kernels/internal/runtime_shape.h:133:12:int tflite::Offset(const RuntimeShape&, int, int, int, int)	16	static
+../Middlewares/tensorflow/tensorflow/lite/kernels/internal/types.h:189:15:size_t tflite::ReducedOutputOffset(int, const int*, const int*, int, const int*)	24	static
+../Middlewares/tensorflow/tensorflow/lite/kernels/internal/reference/reduce.h:109:13:bool tflite::reference_ops::ResolveAxis(int, const int*, int64_t, int*, int*)	40	static
+../Middlewares/tensorflow/tensorflow/lite/kernels/internal/reference/reduce.h:271:13:void tflite::reference_ops::Mean(const tflite::MeanParams&, const tflite::RuntimeShape&, const float*, const tflite::RuntimeShape&, float*)	120	static
+../Middlewares/tensorflow/tensorflow/lite/kernels/kernel_util.h:171:16:int64_t tflite::NumElements(const int*, int)	40	static
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/reduce_common.cc:34:14:TfLiteStatus tflite::PrepareSimple(TfLiteContext*, TfLiteNode*, int32_t*, int*)	48	static
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/reduce_common.cc:67:14:TfLiteStatus tflite::PrepareMaxHelper(TfLiteContext*, TfLiteNode*, OpDataReduce*)	40	static
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/reduce_common.cc:95:14:TfLiteStatus tflite::PrepareMeanOrSumHelper(TfLiteContext*, TfLiteNode*, OpDataReduce*)	40	static
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/reduce_common.cc:129:6:void tflite::ResolveAxis(const int*, int, MeanParams*)	4	static
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/kernel_util.h:83:10:const T* tflite::micro::GetTensorData(const TfLiteEvalTensor*) [with T = int]	8	static
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/kernel_util.h:83:10:const T* tflite::micro::GetTensorData(const TfLiteEvalTensor*) [with T = float]	8	static
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/kernel_util.h:76:4:T* tflite::micro::GetTensorData(TfLiteEvalTensor*) [with T = float]	8	static
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/kernel_util.h:83:10:const T* tflite::micro::GetTensorData(const TfLiteEvalTensor*) [with T = signed char]	8	static
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/kernel_util.h:76:4:T* tflite::micro::GetTensorData(TfLiteEvalTensor*) [with T = signed char]	8	static
+../Middlewares/tensorflow/tensorflow/lite/kernels/internal/reference/reduce.h:159:13:bool tflite::reference_ops::InitTensorDataForReduce(const int*, int, T, T*) [with T = float]	16	static
+../Middlewares/tensorflow/tensorflow/lite/kernels/internal/reference/reduce.h:159:13:bool tflite::reference_ops::InitTensorDataForReduce(const int*, int, T, T*) [with T = signed char]	20	static
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/kernel_util.h:83:10:const T* tflite::micro::GetTensorData(const TfLiteEvalTensor*) [with T = short int]	8	static
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/kernel_util.h:76:4:T* tflite::micro::GetTensorData(TfLiteEvalTensor*) [with T = short int]	8	static
+../Middlewares/tensorflow/tensorflow/lite/kernels/internal/types.h:162:13:bool tflite::NextIndex(int, const int*, IndexType*) [with IndexType = int]	8	static
+../Middlewares/tensorflow/tensorflow/lite/kernels/internal/reference/reduce.h:55:13:bool tflite::reference_ops::Reduce(const In*, const int*, const int*, int, int, const int*, int, int*, Out (*)(Out, In), Out*) [with In = float; Out = float]	48	static
+../Middlewares/tensorflow/tensorflow/lite/kernels/internal/reference/reduce.h:217:13:bool tflite::reference_ops::Mean(const T*, const int*, int, T*, const int*, int, const int*, int, bool, int*, int*, U*) [with T = float; U = float]	80	static
+../Middlewares/tensorflow/tensorflow/lite/kernels/internal/reference/reduce.h:180:13:bool tflite::reference_ops::ReduceGeneric(const T*, const int*, int, T*, const int*, int, const int*, int64_t, bool, int*, int*, T, T (*)(T, T)) [with T = float]	56	static
+../Middlewares/tensorflow/tensorflow/lite/kernels/internal/reference/reduce.h:55:13:bool tflite::reference_ops::Reduce(const In*, const int*, const int*, int, int, const int*, int, int*, Out (*)(Out, In), Out*) [with In = signed char; Out = signed char]	48	static
+../Middlewares/tensorflow/tensorflow/lite/kernels/internal/reference/reduce.h:180:13:bool tflite::reference_ops::ReduceGeneric(const T*, const int*, int, T*, const int*, int, const int*, int64_t, bool, int*, int*, T, T (*)(T, T)) [with T = signed char]	56	static
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/reduce_common.cc:239:14:TfLiteStatus tflite::EvalMaxHelper(TfLiteContext*, TfLiteNode*, OpDataReduce*)	112	static
+../Middlewares/tensorflow/tensorflow/lite/kernels/internal/common.h:368:5:int tflite::CountLeadingZeros(T) [with T = long long unsigned int]	0	static
+../Middlewares/tensorflow/tensorflow/lite/kernels/internal/reference/reduce.h:55:13:bool tflite::reference_ops::Reduce(const In*, const int*, const int*, int, int, const int*, int, int*, Out (*)(Out, In), Out*) [with In = signed char; Out = long int]	48	static
+../Middlewares/tensorflow/tensorflow/lite/kernels/internal/reference/reduce.h:319:13:bool tflite::reference_ops::QuantizedMeanOrSum(const T*, int32_t, const int*, int, T*, int32_t, int, int32_t, const int*, int, const int*, int, bool, int*, int*, U*, bool) [with T = signed char; U = long int]	104	static
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/reduce_common.cc:142:14:TfLiteStatus tflite::QuantizedMeanOrSum(TfLiteContext*, TfLiteNode*, int*, int*, int32_t*, OpDataReduce*, bool) [with T = signed char]	128	static
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/reduce_common.cc:166:14:TfLiteStatus tflite::EvalIntegerMean(TfLiteContext*, TfLiteNode*, int, OpDataReduce*, int*, int*) [with integer_type = signed char]	40	static
+../Middlewares/tensorflow/tensorflow/lite/kernels/internal/reference/reduce.h:55:13:bool tflite::reference_ops::Reduce(const In*, const int*, const int*, int, int, const int*, int, int*, Out (*)(Out, In), Out*) [with In = short int; Out = long int]	48	static
+../Middlewares/tensorflow/tensorflow/lite/kernels/internal/reference/reduce.h:319:13:bool tflite::reference_ops::QuantizedMeanOrSum(const T*, int32_t, const int*, int, T*, int32_t, int, int32_t, const int*, int, const int*, int, bool, int*, int*, U*, bool) [with T = short int; U = long int]	104	static
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/reduce_common.cc:142:14:TfLiteStatus tflite::QuantizedMeanOrSum(TfLiteContext*, TfLiteNode*, int*, int*, int32_t*, OpDataReduce*, bool) [with T = short int]	128	static
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/reduce_common.cc:166:14:TfLiteStatus tflite::EvalIntegerMean(TfLiteContext*, TfLiteNode*, int, OpDataReduce*, int*, int*) [with integer_type = short int]	40	static
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/reduce_common.cc:178:14:TfLiteStatus tflite::EvalMeanHelper(TfLiteContext*, TfLiteNode*, OpDataReduce*)	184	static
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/reduce_common.cc:293:14:TfLiteStatus tflite::EvalSumHelper(TfLiteContext*, TfLiteNode*, OpDataReduce*)	128	static

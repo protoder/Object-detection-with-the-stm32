@@ -1,0 +1,25 @@
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/add_n.cc:49:14:TfLiteStatus tflite::{anonymous}::CalculateOpData(TfLiteContext*, TfLiteNode*)	21
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/add_n.cc:136:14:TfLiteStatus tflite::{anonymous}::Prepare(TfLiteContext*, TfLiteNode*)	1
+../Middlewares/tensorflow/tensorflow/lite/kernels/op_macros.h:24:13:void AbortImpl()	1
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/add_n.cc:211:18:TFLMRegistration tflite::Register_ADD_N()	1
+../Middlewares/tensorflow/third_party/gemmlowp/fixedpoint/fixedpoint.h:64:10:tRawType gemmlowp::Dup(typename FixedPointRawTypeTraits<tRawType>::ScalarRawType) [with tRawType = long int]	1
+../Middlewares/tensorflow/third_party/gemmlowp/fixedpoint/fixedpoint.h:70:14:tIntegerType gemmlowp::BitAnd(tIntegerType, tIntegerType) [with tIntegerType = long int]	1
+../Middlewares/tensorflow/third_party/gemmlowp/fixedpoint/fixedpoint.h:140:14:tIntegerType gemmlowp::ShiftRight(tIntegerType, int) [with tIntegerType = long int]	1
+../Middlewares/tensorflow/third_party/gemmlowp/fixedpoint/fixedpoint.h:94:14:tIntegerType gemmlowp::Add(tIntegerType, tIntegerType) [with tIntegerType = long int]	1
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/kernel_util.h:76:4:T* tflite::micro::GetTensorData(TfLiteEvalTensor*) [with T = float]	1
+../Middlewares/tensorflow/tensorflow/lite/kernels/internal/reference/add_n.h:28:13:void tflite::reference_ops::AddN(const tflite::RuntimeShape&, size_t, const T* const*, T*) [with T = float]	4
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/kernel_util.h:76:4:T* tflite::micro::GetTensorData(TfLiteEvalTensor*) [with T = signed char]	1
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/kernel_util.h:83:10:const T* tflite::micro::GetTensorData(const TfLiteEvalTensor*) [with T = float]	1
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/add_n.cc:141:18:const T** tflite::{anonymous}::CopyInputsToScratchBuffer(TfLiteContext*, TfLiteNode*, int) [with T = float]	3
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/add_n.cc:157:6:void tflite::{anonymous}::EvalAddN(TfLiteContext*, TfLiteNode*, TfLiteEvalTensor*) [with T = float]	2
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/kernel_util.h:83:10:const T* tflite::micro::GetTensorData(const TfLiteEvalTensor*) [with T = signed char]	1
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/add_n.cc:141:18:const T** tflite::{anonymous}::CopyInputsToScratchBuffer(TfLiteContext*, TfLiteNode*, int) [with T = signed char]	3
+../Middlewares/tensorflow/third_party/gemmlowp/fixedpoint/fixedpoint.h:88:14:tIntegerType gemmlowp::BitNot(tIntegerType) [with tIntegerType = long int]	1
+../Middlewares/tensorflow/third_party/gemmlowp/fixedpoint/fixedpoint.h:156:14:tIntegerType gemmlowp::MaskIfNonZero(tIntegerType) [with tIntegerType = long int]	2
+../Middlewares/tensorflow/third_party/gemmlowp/fixedpoint/fixedpoint.h:199:14:tIntegerType gemmlowp::MaskIfLessThan(tIntegerType, tIntegerType) [with tIntegerType = long int]	1
+../Middlewares/tensorflow/third_party/gemmlowp/fixedpoint/fixedpoint.h:185:14:tIntegerType gemmlowp::MaskIfGreaterThan(tIntegerType, tIntegerType) [with tIntegerType = long int]	1
+../Middlewares/tensorflow/third_party/gemmlowp/fixedpoint/fixedpoint.h:357:20:IntegerType gemmlowp::RoundingDivideByPOT(IntegerType, int) [with IntegerType = long int]	1
+../Middlewares/tensorflow/tensorflow/lite/kernels/internal/common.h:315:16:int32_t tflite::MultiplyByQuantizedMultiplierSmallerThanOneExp(int32_t, int32_t, int)	4
+../Middlewares/tensorflow/tensorflow/lite/kernels/internal/reference/add_n.h:42:13:void tflite::reference_ops::AddN(const tflite::ArithmeticParams&, const tflite::RuntimeShape&, size_t, const int8_t* const*, int8_t*)	6
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/add_n.cc:171:6:void tflite::{anonymous}::EvalAddNQuantized(TfLiteContext*, TfLiteNode*, TfLiteEvalTensor*) [with T = signed char]	2
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/add_n.cc:194:14:TfLiteStatus tflite::{anonymous}::Eval(TfLiteContext*, TfLiteNode*)	3

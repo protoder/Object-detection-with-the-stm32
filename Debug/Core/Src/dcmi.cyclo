@@ -1,0 +1,4 @@
+../Core/Src/dcmi.c:31:6:MX_DCMI_Init	2
+../Core/Src/dcmi.c:63:6:HAL_DCMI_MspInit	3
+../Core/Src/dcmi.c:159:6:HAL_DCMI_MspDeInit	2
+../Core/Src/dcmi.c:209:10:DCMI_GetStatus	1

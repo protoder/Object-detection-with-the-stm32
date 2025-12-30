@@ -1,0 +1,15 @@
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/batch_to_space_nd.cc:41:14:TfLiteStatus tflite::{anonymous}::BatchToSpaceNDPrepare(TfLiteContext*, TfLiteNode*)	13
+../Middlewares/tensorflow/tensorflow/lite/kernels/op_macros.h:24:13:void AbortImpl()	1
+../Middlewares/tensorflow/tensorflow/lite/kernels/internal/runtime_shape.h:72:8:void tflite::RuntimeShape::SetDim(int, int32_t)	1
+../Middlewares/tensorflow/tensorflow/lite/kernels/internal/runtime_shape.h:45:3:tflite::RuntimeShape::RuntimeShape(int, int32_t)	2
+../Middlewares/tensorflow/tensorflow/lite/kernels/internal/runtime_shape.h:133:12:int tflite::Offset(const RuntimeShape&, int, int, int, int)	13
+../Middlewares/tensorflow/tensorflow/lite/kernels/internal/reference/batch_to_space_nd.h:27:21:tflite::RuntimeShape tflite::reference_ops::ExtendShapeBatchToSpace(const tflite::RuntimeShape&)	2
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/batch_to_space_nd.cc:108:18:TFLMRegistration tflite::Register_BATCH_TO_SPACE_ND()	1
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/kernel_util.h:83:10:const T* tflite::micro::GetTensorData(const TfLiteEvalTensor*) [with T = float]	1
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/kernel_util.h:83:10:const T* tflite::micro::GetTensorData(const TfLiteEvalTensor*) [with T = long int]	1
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/kernel_util.h:76:4:T* tflite::micro::GetTensorData(TfLiteEvalTensor*) [with T = float]	1
+../Middlewares/tensorflow/tensorflow/lite/kernels/internal/reference/batch_to_space_nd.h:39:13:void tflite::reference_ops::BatchToSpaceND(const tflite::RuntimeShape&, const T*, const tflite::RuntimeShape&, const int32_t*, const tflite::RuntimeShape&, const int32_t*, const tflite::RuntimeShape&, T*) [with T = float]	8
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/kernel_util.h:83:10:const T* tflite::micro::GetTensorData(const TfLiteEvalTensor*) [with T = signed char]	1
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/kernel_util.h:76:4:T* tflite::micro::GetTensorData(TfLiteEvalTensor*) [with T = signed char]	1
+../Middlewares/tensorflow/tensorflow/lite/kernels/internal/reference/batch_to_space_nd.h:39:13:void tflite::reference_ops::BatchToSpaceND(const tflite::RuntimeShape&, const T*, const tflite::RuntimeShape&, const int32_t*, const tflite::RuntimeShape&, const int32_t*, const tflite::RuntimeShape&, T*) [with T = signed char]	8
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/batch_to_space_nd.cc:65:14:TfLiteStatus tflite::{anonymous}::BatchToSpaceNDEval(TfLiteContext*, TfLiteNode*)	3

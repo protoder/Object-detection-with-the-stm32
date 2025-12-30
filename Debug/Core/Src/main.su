@@ -1,0 +1,13 @@
+../Core/Src/main.c:98:6:print_dbg	16	static
+../Core/Src/main.c:112:6:debug_led_blink	16	static
+../Core/Src/main.c:125:1:decolorize	4	static
+../Core/Src/main.c:153:6:rgb565_to_grayscale_inplace	8	static
+../Core/Src/main.c:196:6:rgb565_to_grayscale_inplace_swapped	24	static
+../Core/Src/main.c:482:6:camera_capture_next_frame	8	static,ignoring_inline_asm
+../Core/Src/main.c:537:6:display_current_frame	24	static,ignoring_inline_asm
+../Core/Src/main.c:567:6:check_camera_status	56	static
+../Core/Src/main.c:586:6:HAL_DCMI_FrameEventCallback	8	static
+../Core/Src/main.c:601:6:HAL_DCMI_ErrorCallback	8	static
+../Core/Src/main.c:621:6:Error_Handler	8	static,ignoring_inline_asm
+../Core/Src/main.c:416:6:SystemClock_Config	120	static
+../Core/Src/main.c:233:5:main	88	static,ignoring_inline_asm

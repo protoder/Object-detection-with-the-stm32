@@ -1,0 +1,11 @@
+../Middlewares/tensorflow/signal/micro/kernels/framer.cc:51:6:void tflite::{anonymous}::FramerResetState(TFLMSignalFramerParams*)	16	static
+../Middlewares/tensorflow/signal/micro/kernels/framer.cc:184:6:void tflite::{anonymous}::FramerReset(TfLiteContext*, void*)	8	static
+../Middlewares/tensorflow/signal/micro/kernels/framer.cc:61:7:void* tflite::{anonymous}::FramerInit(TfLiteContext*, const char*, size_t)	32	static
+../Middlewares/tensorflow/tensorflow/lite/kernels/op_macros.h:24:13:void AbortImpl()	8	static
+../Middlewares/tensorflow/tensorflow/lite/kernels/internal/runtime_shape.h:67:11:int32_t tflite::RuntimeShape::Dims(int) const	8	static
+../Middlewares/tensorflow/signal/micro/kernels/framer.cc:79:14:TfLiteStatus tflite::{anonymous}::FramerPrepare(TfLiteContext*, TfLiteNode*)	96	static
+../Middlewares/tensorflow/signal/micro/kernels/framer.cc:192:19:TFLMRegistration* tflite::tflm_signal::Register_FRAMER()	16	static
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/kernel_util.h:83:10:const T* tflite::micro::GetTensorData(const TfLiteEvalTensor*) [with T = short int]	8	static
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/kernel_util.h:76:4:T* tflite::micro::GetTensorData(TfLiteEvalTensor*) [with T = short int]	8	static
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/kernel_util.h:76:4:T* tflite::micro::GetTensorData(TfLiteEvalTensor*) [with T = bool]	8	static
+../Middlewares/tensorflow/signal/micro/kernels/framer.cc:144:14:TfLiteStatus tflite::{anonymous}::FramerEval(TfLiteContext*, TfLiteNode*)	32	static

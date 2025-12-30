@@ -1,0 +1,10 @@
+../Bsp/Camera/ov2640.c:109:16:OV2640_WR_Reg	16	static
+../Bsp/Camera/ov2640.c:124:13:wrSensorRegs	16	static
+../Bsp/Camera/ov2640.c:132:12:reset	8	static
+../Bsp/Camera/ov2640.c:116:16:OV2640_RD_Reg	16	static
+../Bsp/Camera/ov2640.c:202:13:_set_framesize	24	static
+../Bsp/Camera/ov2640.c:249:12:set_pixformat	8	static
+../Bsp/Camera/ov2640.c:396:12:set_hmirror	8	static
+../Bsp/Camera/ov2640.c:413:12:set_vflip	8	static
+../Bsp/Camera/ov2640.c:307:5:ov2640_check_framesize	0	static
+../Bsp/Camera/ov2640.c:496:5:ov2640_init	8	static

@@ -1,0 +1,12 @@
+../Middlewares/tensorflow/tensorflow/lite/kernels/op_macros.h:24:13:void AbortImpl()	1
+../Middlewares/tensorflow/tensorflow/compiler/mlir/lite/schema/schema_utils.cc:54:17:tflite::BuiltinOperator tflite::GetBuiltinCode(const OperatorCodeT*)	2
+../Middlewares/tensorflow/third_party/flatbuffers/include/flatbuffers/base.h:425:24:T flatbuffers::EndianScalar(T) [with T = long int]	1
+../Middlewares/tensorflow/third_party/flatbuffers/include/flatbuffers/base.h:436:3:T flatbuffers::ReadScalar(const void*) [with T = long int]	1
+../Middlewares/tensorflow/third_party/flatbuffers/include/flatbuffers/base.h:425:24:T flatbuffers::EndianScalar(T) [with T = short unsigned int]	1
+../Middlewares/tensorflow/third_party/flatbuffers/include/flatbuffers/base.h:436:3:T flatbuffers::ReadScalar(const void*) [with T = short unsigned int]	1
+../Middlewares/tensorflow/third_party/flatbuffers/include/flatbuffers/table.h:35:13:flatbuffers::voffset_t flatbuffers::Table::GetOptionalFieldOffset(flatbuffers::voffset_t) const	2
+../Middlewares/tensorflow/third_party/flatbuffers/include/flatbuffers/table.h:45:26:T flatbuffers::Table::GetField(flatbuffers::voffset_t, T) const [with T = long int]	2
+../Middlewares/tensorflow/third_party/flatbuffers/include/flatbuffers/base.h:425:24:T flatbuffers::EndianScalar(T) [with T = signed char]	1
+../Middlewares/tensorflow/third_party/flatbuffers/include/flatbuffers/base.h:436:3:T flatbuffers::ReadScalar(const void*) [with T = signed char]	1
+../Middlewares/tensorflow/third_party/flatbuffers/include/flatbuffers/table.h:45:26:T flatbuffers::Table::GetField(flatbuffers::voffset_t, T) const [with T = signed char]	2
+../Middlewares/tensorflow/tensorflow/compiler/mlir/lite/schema/schema_utils.cc:45:17:tflite::BuiltinOperator tflite::GetBuiltinCode(const OperatorCode*)	2

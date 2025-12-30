@@ -1,0 +1,9 @@
+../Middlewares/tensorflow/tensorflow/lite/kernels/op_macros.h:24:13:void AbortImpl()	8	static
+../Middlewares/tensorflow/tensorflow/lite/kernels/internal/runtime_shape.h:87:8:void tflite::RuntimeShape::ReplaceWith(int, const int32_t*)	8	static
+../Middlewares/tensorflow/tensorflow/lite/kernels/padding.h:44:12:int tflite::ComputeOutSize(TfLitePadding, int, int, int, int)	4	static
+../Middlewares/tensorflow/tensorflow/lite/kernels/padding.h:62:28:TfLitePaddingValues tflite::ComputePaddingHeightWidth(int, int, int, int, int, int, int, int, TfLitePadding, int*, int*)	48	static
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/depthwise_conv_common.cc:60:17:tflite::DepthwiseParams tflite::DepthwiseConvParamsQuantized(const TfLiteDepthwiseConvParams&, const OpDataConv&)	16	static
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/depthwise_conv_common.cc:81:14:TfLiteStatus tflite::CalculateOpDataDepthwiseConv(TfLiteContext*, TfLiteNode*, const TfLiteDepthwiseConvParams&, int, int, int, int, int, int, TfLiteType, OpDataConv*)	104	static
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/depthwise_conv_common.cc:139:14:TfLiteStatus tflite::DepthwiseConvPrepare(TfLiteContext*, TfLiteNode*)	136	static
+../Middlewares/tensorflow/tensorflow/lite/kernels/kernel_util.h:285:6:void tflite::CalculateActivationRange(TfLiteFusedActivation, T*, T*) [with T = float]	0	static
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/depthwise_conv_common.cc:42:17:tflite::DepthwiseParams tflite::DepthwiseConvParamsFloat(const TfLiteDepthwiseConvParams&, const OpDataConv&)	16	static

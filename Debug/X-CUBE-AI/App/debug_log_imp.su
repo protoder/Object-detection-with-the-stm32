@@ -1,0 +1,2 @@
+../X-CUBE-AI/App/debug_log_imp.cc:27:17:void DebugLog(const char*, va_list)	264	static
+../X-CUBE-AI/App/debug_log_imp.cc:59:5:int DebugVsnprintf(char*, size_t, const char*, va_list)	8	static

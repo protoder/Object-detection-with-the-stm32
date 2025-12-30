@@ -1,0 +1,12 @@
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/gather_nd.cc:31:14:TfLiteStatus tflite::{anonymous}::GatherNdPrepare(TfLiteContext*, TfLiteNode*)	64	static
+../Middlewares/tensorflow/tensorflow/lite/kernels/op_macros.h:24:13:void AbortImpl()	8	static
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/gather_nd.cc:208:18:TFLMRegistration tflite::Register_GATHER_ND()	16	static
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/kernel_util.h:83:10:const T* tflite::micro::GetTensorData(const TfLiteEvalTensor*) [with T = long int]	8	static
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/kernel_util.h:83:10:const T* tflite::micro::GetTensorData(const TfLiteEvalTensor*) [with T = float]	8	static
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/kernel_util.h:76:4:T* tflite::micro::GetTensorData(TfLiteEvalTensor*) [with T = float]	8	static
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/gather_nd.cc:116:14:TfLiteStatus tflite::{anonymous}::GatherNd(const TfLiteEvalTensor*, const TfLiteEvalTensor*, TfLiteEvalTensor*) [with ParamsT = float; IndicesT = long int]	72	static
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/kernel_util.h:83:10:const T* tflite::micro::GetTensorData(const TfLiteEvalTensor*) [with T = signed char]	8	static
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/kernel_util.h:76:4:T* tflite::micro::GetTensorData(TfLiteEvalTensor*) [with T = signed char]	8	static
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/gather_nd.cc:116:14:TfLiteStatus tflite::{anonymous}::GatherNd(const TfLiteEvalTensor*, const TfLiteEvalTensor*, TfLiteEvalTensor*) [with ParamsT = signed char; IndicesT = long int]	72	static
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/gather_nd.cc:165:14:TfLiteStatus tflite::{anonymous}::EvalGatherNd(TfLiteContext*, const TfLiteEvalTensor*, const TfLiteEvalTensor*, TfLiteEvalTensor*) [with IndicesT = long int]	8	static
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/gather_nd.cc:188:14:TfLiteStatus tflite::{anonymous}::GatherNdEval(TfLiteContext*, TfLiteNode*)	24	static

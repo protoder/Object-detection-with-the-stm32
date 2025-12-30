@@ -1,0 +1,6 @@
+../Middlewares/tensorflow/tensorflow/lite/kernels/op_macros.h:24:13:void AbortImpl()	8	static
+../Middlewares/tensorflow/signal/micro/kernels/fft_auto_scale_kernel.cc:57:19:TFLMRegistration* tflite::tflm_signal::Register_FFT_AUTO_SCALE()	16	static
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/kernel_util.h:83:10:const T* tflite::micro::GetTensorData(const TfLiteEvalTensor*) [with T = short int]	8	static
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/kernel_util.h:76:4:T* tflite::micro::GetTensorData(TfLiteEvalTensor*) [with T = short int]	8	static
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/kernel_util.h:76:4:T* tflite::micro::GetTensorData(TfLiteEvalTensor*) [with T = long int]	8	static
+../Middlewares/tensorflow/signal/micro/kernels/fft_auto_scale_kernel.cc:35:14:TfLiteStatus tflite::{anonymous}::FftAutoScaleEval(TfLiteContext*, TfLiteNode*)	24	static

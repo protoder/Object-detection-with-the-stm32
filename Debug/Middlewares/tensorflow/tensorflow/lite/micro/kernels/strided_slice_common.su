@@ -1,0 +1,10 @@
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/strided_slice_common.cc:47:3:tflite::{anonymous}::StridedSliceContext::~StridedSliceContext()	8	static
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/strided_slice_common.cc:68:28:tflite::StridedSliceParams tflite::{anonymous}::BuildStridedSliceParams(StridedSliceContext*)	16	static
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/strided_slice_common.cc:33:3:tflite::{anonymous}::StridedSliceContext::StridedSliceContext(TfLiteContext*, TfLiteNode*)	16	static
+../Middlewares/tensorflow/tensorflow/lite/kernels/op_macros.h:24:13:void AbortImpl()	8	static
+../Middlewares/tensorflow/tensorflow/lite/kernels/internal/runtime_shape.h:67:11:int32_t tflite::RuntimeShape::Dims(int) const	8	static
+../Middlewares/tensorflow/tensorflow/lite/kernels/internal/strided_slice_logic.h:142:12:int tflite::strided_slice::StartForAxis(const tflite::StridedSliceParams&, const tflite::RuntimeShape&, int)	24	static
+../Middlewares/tensorflow/tensorflow/lite/kernels/internal/strided_slice_logic.h:189:12:int tflite::strided_slice::StopForAxis(const tflite::StridedSliceParams&, const tflite::RuntimeShape&, int, int)	32	static
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/strided_slice_common.cc:92:14:TfLiteStatus tflite::{anonymous}::CheckOutputSize(TfLiteContext*, StridedSliceContext*)	160	static
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/strided_slice_common.cc:129:7:void* tflite::StridedSliceInit(TfLiteContext*, const char*, size_t)	8	static
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/strided_slice_common.cc:135:14:TfLiteStatus tflite::StridedSlicePrepare(TfLiteContext*, TfLiteNode*)	152	static

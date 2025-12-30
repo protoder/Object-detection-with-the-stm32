@@ -1,0 +1,6 @@
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/squeeze.cc:37:3:tflite::{anonymous}::SqueezeContext::~SqueezeContext()	1
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/squeeze.cc:90:14:TfLiteStatus tflite::{anonymous}::SqueezeEval(TfLiteContext*, TfLiteNode*)	5
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/squeeze.cc:31:3:tflite::{anonymous}::SqueezeContext::SqueezeContext(TfLiteContext*, TfLiteNode*)	1
+../Middlewares/tensorflow/tensorflow/lite/kernels/op_macros.h:24:13:void AbortImpl()	1
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/squeeze.cc:47:14:TfLiteStatus tflite::{anonymous}::SqueezePrepare(TfLiteContext*, TfLiteNode*)	17
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/squeeze.cc:114:18:TFLMRegistration tflite::Register_SQUEEZE()	1

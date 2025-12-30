@@ -1,0 +1,3 @@
+../Middlewares/tensorflow/tensorflow/lite/kernels/op_macros.h:24:13:void AbortImpl()	8	static
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/sub_common.cc:36:14:TfLiteStatus tflite::CalculateOpDataSub(TfLiteContext*, TfLiteSubParams*, const TfLiteTensor*, const TfLiteTensor*, TfLiteTensor*, OpDataSub*)	56	static
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/sub_common.cc:79:14:TfLiteStatus tflite::SubPrepare(TfLiteContext*, TfLiteNode*)	48	static

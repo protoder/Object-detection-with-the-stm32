@@ -1,0 +1,30 @@
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/select.cc:46:14:TfLiteStatus tflite::{anonymous}::CheckBroadcastShape(TfLiteContext*, const TfLiteTensor*, const TfLiteTensor*, const TfLiteTensor*, const TfLiteIntArray*)	20
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/select.cc:75:14:TfLiteStatus tflite::{anonymous}::SelectPrepare(TfLiteContext*, TfLiteNode*)	21
+../Middlewares/tensorflow/tensorflow/lite/kernels/op_macros.h:24:13:void AbortImpl()	1
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/select.cc:38:7:void* tflite::{anonymous}::SelectInit(TfLiteContext*, const char*, size_t)	1
+../Middlewares/tensorflow/tensorflow/lite/kernels/internal/runtime_shape.h:67:11:int32_t tflite::RuntimeShape::Dims(int) const	1
+../Middlewares/tensorflow/tensorflow/lite/kernels/internal/runtime_shape.h:72:8:void tflite::RuntimeShape::SetDim(int, int32_t)	1
+../Middlewares/tensorflow/tensorflow/lite/kernels/internal/runtime_shape.h:109:3:tflite::RuntimeShape::RuntimeShape(int, const tflite::RuntimeShape&, int)	2
+../Middlewares/tensorflow/tensorflow/lite/kernels/internal/types.h:314:12:int tflite::MatchingFlatSize(const RuntimeShape&, const RuntimeShape&)	3
+../Middlewares/tensorflow/tensorflow/lite/kernels/internal/types.h:324:12:int tflite::MatchingFlatSize(const RuntimeShape&, const RuntimeShape&, const RuntimeShape&)	2
+../Middlewares/tensorflow/tensorflow/lite/kernels/internal/types.h:335:12:int tflite::MatchingFlatSize(const RuntimeShape&, const RuntimeShape&, const RuntimeShape&, const RuntimeShape&)	2
+../Middlewares/tensorflow/tensorflow/lite/kernels/internal/reference/select.h:28:6:void tflite::reference_ops::Select(const tflite::RuntimeShape&, const D*, const tflite::RuntimeShape&, const T*, const tflite::RuntimeShape&, const T*, const tflite::RuntimeShape&, T*) [with D = bool; T = float]	11
+../Middlewares/tensorflow/tensorflow/lite/kernels/internal/reference/select.h:28:6:void tflite::reference_ops::Select(const tflite::RuntimeShape&, const D*, const tflite::RuntimeShape&, const T*, const tflite::RuntimeShape&, const T*, const tflite::RuntimeShape&, T*) [with D = bool; T = signed char]	11
+../Middlewares/tensorflow/tensorflow/lite/kernels/internal/reference/select.h:28:6:void tflite::reference_ops::Select(const tflite::RuntimeShape&, const D*, const tflite::RuntimeShape&, const T*, const tflite::RuntimeShape&, const T*, const tflite::RuntimeShape&, T*) [with D = bool; T = short int]	11
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/select.cc:191:18:TFLMRegistration tflite::Register_SELECT_V2()	1
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/kernel_util.h:83:10:const T* tflite::micro::GetTensorData(const TfLiteEvalTensor*) [with T = bool]	1
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/kernel_util.h:83:10:const T* tflite::micro::GetTensorData(const TfLiteEvalTensor*) [with T = float]	1
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/kernel_util.h:76:4:T* tflite::micro::GetTensorData(TfLiteEvalTensor*) [with T = float]	1
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/select.cc:125:6:void tflite::{anonymous}::CallSelect(const TfLiteEvalTensor*, const TfLiteEvalTensor*, const TfLiteEvalTensor*, TfLiteEvalTensor*, bool) [with T = float]	2
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/kernel_util.h:83:10:const T* tflite::micro::GetTensorData(const TfLiteEvalTensor*) [with T = signed char]	1
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/kernel_util.h:76:4:T* tflite::micro::GetTensorData(TfLiteEvalTensor*) [with T = signed char]	1
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/select.cc:125:6:void tflite::{anonymous}::CallSelect(const TfLiteEvalTensor*, const TfLiteEvalTensor*, const TfLiteEvalTensor*, TfLiteEvalTensor*, bool) [with T = signed char]	2
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/kernel_util.h:83:10:const T* tflite::micro::GetTensorData(const TfLiteEvalTensor*) [with T = short int]	1
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/kernel_util.h:76:4:T* tflite::micro::GetTensorData(TfLiteEvalTensor*) [with T = short int]	1
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/select.cc:125:6:void tflite::{anonymous}::CallSelect(const TfLiteEvalTensor*, const TfLiteEvalTensor*, const TfLiteEvalTensor*, TfLiteEvalTensor*, bool) [with T = short int]	2
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/select.cc:147:14:TfLiteStatus tflite::{anonymous}::SelectEval(TfLiteContext*, TfLiteNode*)	4
+../Middlewares/tensorflow/tensorflow/lite/kernels/internal/common.h:1083:22:void tflite::CopyDimsToDesc(const RuntimeShape&, NdArrayDesc<N>*) [with int N = 5]	2
+../Middlewares/tensorflow/tensorflow/lite/kernels/internal/common.h:1127:13:void tflite::NdArrayDescsForElementwiseBroadcast(const RuntimeShape&, const RuntimeShape&, const RuntimeShape&, NdArrayDesc<N>*, NdArrayDesc<N>*, NdArrayDesc<N>*) [with int N = 5]	8
+../Middlewares/tensorflow/tensorflow/lite/kernels/internal/reference/select.h:78:6:void tflite::reference_ops::BroadcastSelect5DSlow(const tflite::RuntimeShape&, const D*, const tflite::RuntimeShape&, const T*, const tflite::RuntimeShape&, const T*, const tflite::RuntimeShape&, T*) [with D = bool; T = float]	7
+../Middlewares/tensorflow/tensorflow/lite/kernels/internal/reference/select.h:78:6:void tflite::reference_ops::BroadcastSelect5DSlow(const tflite::RuntimeShape&, const D*, const tflite::RuntimeShape&, const T*, const tflite::RuntimeShape&, const T*, const tflite::RuntimeShape&, T*) [with D = bool; T = signed char]	7
+../Middlewares/tensorflow/tensorflow/lite/kernels/internal/reference/select.h:78:6:void tflite::reference_ops::BroadcastSelect5DSlow(const tflite::RuntimeShape&, const D*, const tflite::RuntimeShape&, const T*, const tflite::RuntimeShape&, const T*, const tflite::RuntimeShape&, T*) [with D = bool; T = short int]	7

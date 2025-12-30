@@ -1,0 +1,7 @@
+../Middlewares/tensorflow/signal/micro/kernels/filter_bank_log.cc:63:14:TfLiteStatus tflite::{anonymous}::FilterBankLogPrepare(TfLiteContext*, TfLiteNode*)	13
+../Middlewares/tensorflow/tensorflow/lite/kernels/op_macros.h:24:13:void AbortImpl()	1
+../Middlewares/tensorflow/signal/micro/kernels/filter_bank_log.cc:45:7:void* tflite::{anonymous}::FilterBankLogInit(TfLiteContext*, const char*, size_t)	2
+../Middlewares/tensorflow/signal/micro/kernels/filter_bank_log.cc:106:19:TFLMRegistration* tflite::tflm_signal::Register_FILTER_BANK_LOG()	3
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/kernel_util.h:83:10:const T* tflite::micro::GetTensorData(const TfLiteEvalTensor*) [with T = long unsigned int]	1
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/kernel_util.h:76:4:T* tflite::micro::GetTensorData(TfLiteEvalTensor*) [with T = short int]	1
+../Middlewares/tensorflow/signal/micro/kernels/filter_bank_log.cc:86:14:TfLiteStatus tflite::{anonymous}::FilterBankLogEval(TfLiteContext*, TfLiteNode*)	1

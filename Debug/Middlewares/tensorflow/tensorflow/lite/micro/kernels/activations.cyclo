@@ -1,0 +1,17 @@
+../Middlewares/tensorflow/tensorflow/lite/kernels/op_macros.h:24:13:void AbortImpl()	1
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/activations.cc:33:7:void* tflite::{anonymous}::ReluInit(TfLiteContext*, const char*, size_t)	1
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/activations.cc:71:7:void* tflite::{anonymous}::Relu6Init(TfLiteContext*, const char*, size_t)	1
+../Middlewares/tensorflow/tensorflow/lite/kernels/internal/runtime_shape.h:67:11:int32_t tflite::RuntimeShape::Dims(int) const	1
+../Middlewares/tensorflow/tensorflow/lite/kernels/internal/types.h:314:12:int tflite::MatchingFlatSize(const RuntimeShape&, const RuntimeShape&)	3
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/activations.cc:121:18:TFLMRegistration tflite::Register_RELU()	1
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/activations.cc:125:18:TFLMRegistration tflite::Register_RELU6()	1
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/kernel_util.h:83:10:const T* tflite::micro::GetTensorData(const TfLiteEvalTensor*) [with T = float]	1
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/kernel_util.h:76:4:T* tflite::micro::GetTensorData(TfLiteEvalTensor*) [with T = float]	1
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/kernel_util.h:83:10:const T* tflite::micro::GetTensorData(const TfLiteEvalTensor*) [with T = signed char]	1
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/kernel_util.h:76:4:T* tflite::micro::GetTensorData(TfLiteEvalTensor*) [with T = signed char]	1
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/activations.cc:38:14:TfLiteStatus tflite::{anonymous}::ReluEval(TfLiteContext*, TfLiteNode*)	3
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/activations.h:54:6:void tflite::Relu6Quantized(T, T, const RuntimeShape&, const T*, const RuntimeShape&, T*) [with T = signed char]	4
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/kernel_util.h:83:10:const T* tflite::micro::GetTensorData(const TfLiteEvalTensor*) [with T = short int]	1
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/kernel_util.h:76:4:T* tflite::micro::GetTensorData(TfLiteEvalTensor*) [with T = short int]	1
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/activations.h:54:6:void tflite::Relu6Quantized(T, T, const RuntimeShape&, const T*, const RuntimeShape&, T*) [with T = short int]	4
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/activations.cc:76:14:TfLiteStatus tflite::{anonymous}::Relu6Eval(TfLiteContext*, TfLiteNode*)	4

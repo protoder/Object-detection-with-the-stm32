@@ -1,0 +1,14 @@
+../Middlewares/tensorflow/tensorflow/lite/kernels/op_macros.h:24:13:void AbortImpl()	1
+../Middlewares/tensorflow/tensorflow/lite/kernels/internal/runtime_shape.h:67:11:int32_t tflite::RuntimeShape::Dims(int) const	1
+../Middlewares/tensorflow/tensorflow/lite/kernels/internal/runtime_shape.h:133:12:int tflite::Offset(const RuntimeShape&, int, int, int, int)	13
+../Middlewares/tensorflow/tensorflow/lite/kernels/internal/types.h:265:12:int tflite::MatchingDim(const RuntimeShape&, int, const RuntimeShape&, int)	2
+../Middlewares/tensorflow/tensorflow/lite/kernels/internal/reference/pooling.h:142:13:void tflite::reference_ops::L2Pool(const tflite::PoolParams&, const tflite::RuntimeShape&, const float*, const tflite::RuntimeShape&, float*)	13
+../Middlewares/tensorflow/tensorflow/lite/kernels/padding.h:44:12:int tflite::ComputeOutSize(TfLitePadding, int, int, int, int)	4
+../Middlewares/tensorflow/tensorflow/lite/kernels/padding.h:62:28:TfLitePaddingValues tflite::ComputePaddingHeightWidth(int, int, int, int, int, int, int, int, TfLitePadding, int*, int*)	3
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/l2_pool_2d.cc:39:14:TfLiteStatus tflite::{anonymous}::L2Prepare(TfLiteContext*, TfLiteNode*)	14
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/l2_pool_2d.cc:138:18:TFLMRegistration tflite::Register_L2_POOL_2D()	1
+../Middlewares/tensorflow/tensorflow/lite/kernels/kernel_util.h:285:6:void tflite::CalculateActivationRange(TfLiteFusedActivation, T*, T*) [with T = float]	4
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/kernel_util.h:83:10:const T* tflite::micro::GetTensorData(const TfLiteEvalTensor*) [with T = float]	1
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/kernel_util.h:76:4:T* tflite::micro::GetTensorData(TfLiteEvalTensor*) [with T = float]	1
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/l2_pool_2d.cc:95:6:void tflite::{anonymous}::L2EvalFloat(const TfLitePoolParams&, const TfLiteEvalTensor&, tflite::PoolParams*, TfLiteEvalTensor*)	1
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/l2_pool_2d.cc:108:14:TfLiteStatus tflite::{anonymous}::L2Eval(TfLiteContext*, TfLiteNode*)	2

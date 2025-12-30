@@ -1,0 +1,6 @@
+../Middlewares/tensorflow/tensorflow/lite/kernels/op_macros.h:24:13:void AbortImpl()	8	static
+../Middlewares/tensorflow/signal/micro/kernels/filter_bank_square_root.cc:57:19:TFLMRegistration* tflite::tflm_signal::Register_FILTER_BANK_SQUARE_ROOT()	16	static
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/kernel_util.h:83:10:const T* tflite::micro::GetTensorData(const TfLiteEvalTensor*) [with T = long long unsigned int]	8	static
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/kernel_util.h:83:10:const T* tflite::micro::GetTensorData(const TfLiteEvalTensor*) [with T = long int]	8	static
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/kernel_util.h:76:4:T* tflite::micro::GetTensorData(TfLiteEvalTensor*) [with T = long unsigned int]	8	static
+../Middlewares/tensorflow/signal/micro/kernels/filter_bank_square_root.cc:34:14:TfLiteStatus tflite::{anonymous}::FilterBankSquareRootEval(TfLiteContext*, TfLiteNode*)	24	static

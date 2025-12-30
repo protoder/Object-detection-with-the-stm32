@@ -1,0 +1,15 @@
+../Middlewares/tensorflow/tensorflow/lite/core/c/common.cc:34:8:size_t {anonymous}::TfLiteVarArrayGetSizeInBytes(int) [with T = TfLiteIntArray]	0	static
+../Middlewares/tensorflow/tensorflow/lite/core/c/common.cc:34:8:size_t {anonymous}::TfLiteVarArrayGetSizeInBytes(int) [with T = TfLiteFloatArray]	0	static
+../Middlewares/tensorflow/tensorflow/lite/core/c/common.cc:45:5:int {anonymous}::TfLiteVarArrayEqualsArray(const T*, int, const U*) [with T = TfLiteIntArray; U = int]	8	static
+../Middlewares/tensorflow/tensorflow/lite/core/c/common.cc:59:5:int {anonymous}::TfLiteVarArrayEqual(const T*, const T*) [with T = TfLiteIntArray]	8	static
+../Middlewares/tensorflow/tensorflow/lite/core/c/common.cc:163:8:size_t TfLiteIntArrayGetSizeInBytes(int)	8	static
+../Middlewares/tensorflow/tensorflow/lite/core/c/common.cc:167:5:int TfLiteIntArrayEqual(const TfLiteIntArray*, const TfLiteIntArray*)	8	static
+../Middlewares/tensorflow/tensorflow/lite/core/c/common.cc:171:5:int TfLiteIntArrayEqualsArray(const TfLiteIntArray*, int, const int*)	8	static
+../Middlewares/tensorflow/tensorflow/lite/core/c/common.cc:190:5:int TfLiteFloatArrayGetSizeInBytes(int)	8	static
+../Middlewares/tensorflow/tensorflow/lite/core/c/common.cc:450:13:const char* TfLiteTypeGetName(TfLiteType)	0	static
+../Middlewares/tensorflow/tensorflow/lite/core/c/common.cc:496:16:TfLiteDelegate TfLiteDelegateCreate()	8	static
+../Middlewares/tensorflow/tensorflow/lite/core/c/common.cc:499:26:TfLiteAllocationStrategy TfLiteTensorGetAllocationStrategy(const TfLiteTensor*)	0	static
+../Middlewares/tensorflow/tensorflow/lite/core/c/common.cc:525:20:TfLiteRunStability TfLiteTensorGetBufferAddressStability(const TfLiteTensor*)	0	static
+../Middlewares/tensorflow/tensorflow/lite/core/c/common.cc:551:20:TfLiteRunStability TfLiteTensorGetDataStability(const TfLiteTensor*)	0	static
+../Middlewares/tensorflow/tensorflow/lite/core/c/common.cc:579:15:TfLiteRunStep TfLiteTensorGetDataKnownStep(const TfLiteTensor*)	0	static
+../Middlewares/tensorflow/tensorflow/lite/core/c/common.cc:608:15:TfLiteRunStep TfLiteTensorGetShapeKnownStep(const TfLiteTensor*)	0	static

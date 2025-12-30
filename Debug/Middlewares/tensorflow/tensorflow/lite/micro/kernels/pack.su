@@ -1,0 +1,15 @@
+../Middlewares/tensorflow/tensorflow/lite/kernels/op_macros.h:24:13:void AbortImpl()	8	static
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/pack.cc:108:18:TFLMRegistration tflite::Register_PACK()	16	static
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/kernel_util.h:76:4:T* tflite::micro::GetTensorData(TfLiteEvalTensor*) [with T = float]	8	static
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/kernel_util.h:83:10:const T* tflite::micro::GetTensorData(const TfLiteEvalTensor*) [with T = float]	8	static
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/pack.cc:29:14:TfLiteStatus tflite::{anonymous}::PackImpl(TfLiteContext*, TfLiteNode*, TfLiteEvalTensor*, int, int) [with T = float]	40	static
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/kernel_util.h:76:4:T* tflite::micro::GetTensorData(TfLiteEvalTensor*) [with T = signed char]	8	static
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/kernel_util.h:83:10:const T* tflite::micro::GetTensorData(const TfLiteEvalTensor*) [with T = signed char]	8	static
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/pack.cc:29:14:TfLiteStatus tflite::{anonymous}::PackImpl(TfLiteContext*, TfLiteNode*, TfLiteEvalTensor*, int, int) [with T = signed char]	40	static
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/kernel_util.h:76:4:T* tflite::micro::GetTensorData(TfLiteEvalTensor*) [with T = long int]	8	static
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/kernel_util.h:83:10:const T* tflite::micro::GetTensorData(const TfLiteEvalTensor*) [with T = long int]	8	static
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/pack.cc:29:14:TfLiteStatus tflite::{anonymous}::PackImpl(TfLiteContext*, TfLiteNode*, TfLiteEvalTensor*, int, int) [with T = long int]	40	static
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/kernel_util.h:76:4:T* tflite::micro::GetTensorData(TfLiteEvalTensor*) [with T = long long int]	8	static
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/kernel_util.h:83:10:const T* tflite::micro::GetTensorData(const TfLiteEvalTensor*) [with T = long long int]	8	static
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/pack.cc:29:14:TfLiteStatus tflite::{anonymous}::PackImpl(TfLiteContext*, TfLiteNode*, TfLiteEvalTensor*, int, int) [with T = long long int]	40	static
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/pack.cc:72:14:TfLiteStatus tflite::{anonymous}::PackEval(TfLiteContext*, TfLiteNode*)	24	static

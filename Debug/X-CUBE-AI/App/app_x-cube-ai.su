@@ -1,0 +1,11 @@
+../X-CUBE-AI/App/app_x-cube-ai.c:325:12:ai_boostrap	88	static
+../X-CUBE-AI/App/app_x-cube-ai.c:83:10:convert_gray_to_rgb565	0	static
+../X-CUBE-AI/App/app_x-cube-ai.c:96:6:display_gray_buffer	32	static
+../X-CUBE-AI/App/app_x-cube-ai.c:131:9:GetRGB565	4	static
+../X-CUBE-AI/App/app_x-cube-ai.c:148:6:PrepareData	48	static
+../X-CUBE-AI/App/app_x-cube-ai.c:310:5:tflm_io_write	0	static
+../X-CUBE-AI/App/app_x-cube-ai.c:487:5:acquire_and_process_data	8	static
+../X-CUBE-AI/App/app_x-cube-ai.c:510:20:postprocess_output	72	static
+../X-CUBE-AI/App/app_x-cube-ai.c:586:20:post_process	16	static
+../X-CUBE-AI/App/app_x-cube-ai.c:645:6:MX_X_CUBE_AI_Init	8	static
+../X-CUBE-AI/App/app_x-cube-ai.c:660:20:MX_X_CUBE_AI_Process	96	static

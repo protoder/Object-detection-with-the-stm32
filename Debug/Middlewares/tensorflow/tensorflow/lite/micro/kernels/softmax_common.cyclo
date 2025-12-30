@@ -1,0 +1,8 @@
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/softmax_common.cc:68:9:static float tflite::{anonymous}::InitializeLutForInt16(TfLiteContext*, const TfLiteTensor*, TfLiteTensor*, tflite::SoftmaxParams*)::<lambda(float)>::_FUN(float)	1
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/softmax_common.cc:64:9:static float tflite::{anonymous}::InitializeLutForInt16(TfLiteContext*, const TfLiteTensor*, TfLiteTensor*, tflite::SoftmaxParams*)::<lambda(float)>::_FUN(float)	1
+../Middlewares/tensorflow/tensorflow/lite/kernels/op_macros.h:24:13:void AbortImpl()	1
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/softmax_common.cc:140:7:void* tflite::SoftmaxInit(TfLiteContext*, const char*, size_t)	1
+../Middlewares/tensorflow/tensorflow/lite/kernels/internal/common.h:475:13:void tflite::detail::LUTPopulateInt16(FloatT, int32_t, FloatT, int32_t, Func, const void*, int16_t*) [with FloatT = float; Func = float (*)(float)]	6
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/softmax_common.cc:31:14:TfLiteStatus tflite::{anonymous}::InitializeLutForInt16(TfLiteContext*, const TfLiteTensor*, TfLiteTensor*, tflite::SoftmaxParams*)	9
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/softmax_common.cc:80:14:TfLiteStatus tflite::CalculateSoftmaxParams(TfLiteContext*, const TfLiteTensor*, TfLiteTensor*, const TfLiteSoftmaxParams*, SoftmaxParams*)	19
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/softmax_common.cc:145:14:TfLiteStatus tflite::SoftmaxPrepare(TfLiteContext*, TfLiteNode*)	11

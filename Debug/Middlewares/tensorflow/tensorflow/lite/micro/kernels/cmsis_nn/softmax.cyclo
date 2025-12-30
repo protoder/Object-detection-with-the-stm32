@@ -1,0 +1,22 @@
+../Middlewares/tensorflow/tensorflow/lite/kernels/op_macros.h:24:13:void AbortImpl()	1
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/cmsis_nn/softmax.cc:38:7:void* tflite::{anonymous}::Init(TfLiteContext*, const char*, size_t)	1
+../Middlewares/tensorflow/tensorflow/lite/kernels/internal/runtime_shape.h:67:11:int32_t tflite::RuntimeShape::Dims(int) const	1
+../Middlewares/tensorflow/tensorflow/lite/kernels/internal/types.h:265:12:int tflite::MatchingDim(const RuntimeShape&, int, const RuntimeShape&, int)	2
+../Middlewares/tensorflow/tensorflow/lite/kernels/internal/types.h:520:12:int tflite::FlatSizeSkipDim(const RuntimeShape&, int)	3
+../Middlewares/tensorflow/tensorflow/lite/kernels/internal/types.h:532:12:int tflite::MatchingFlatSizeSkipDim(const RuntimeShape&, int, const RuntimeShape&)	3
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/cmsis_nn/softmax.cc:44:14:TfLiteStatus tflite::{anonymous}::Prepare(TfLiteContext*, TfLiteNode*)	16
+../Middlewares/tensorflow/tensorflow/lite/kernels/internal/reference/softmax.h:31:13:void tflite::reference_ops::Softmax(const tflite::SoftmaxParams&, const tflite::RuntimeShape&, const float*, const tflite::RuntimeShape&, float*)	6
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/cmsis_nn/softmax.cc:204:18:TFLMRegistration tflite::Register_SOFTMAX()	1
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/cmsis_nn/softmax.cc:208:18:TFLMRegistration tflite::Register_SOFTMAX_INT8()	1
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/cmsis_nn/softmax.cc:212:18:TFLMRegistration tflite::Register_SOFTMAX_INT8_INT16()	1
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/cmsis_nn/softmax.cc:216:18:TFLMRegistration tflite::Register_SOFTMAX_INT16()	1
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/kernel_util.h:83:10:const T* tflite::micro::GetTensorData(const TfLiteEvalTensor*) [with T = float]	1
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/kernel_util.h:76:4:T* tflite::micro::GetTensorData(TfLiteEvalTensor*) [with T = float]	1
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/kernel_util.h:83:10:const T* tflite::micro::GetTensorData(const TfLiteEvalTensor*) [with T = signed char]	1
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/kernel_util.h:76:4:T* tflite::micro::GetTensorData(TfLiteEvalTensor*) [with T = signed char]	1
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/cmsis_nn/softmax.cc:145:14:TfLiteStatus tflite::{anonymous}::SoftmaxEvalInt8(TfLiteContext*, TfLiteNode*)	1
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/kernel_util.h:76:4:T* tflite::micro::GetTensorData(TfLiteEvalTensor*) [with T = short int]	1
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/cmsis_nn/softmax.cc:162:14:TfLiteStatus tflite::{anonymous}::SoftmaxEvalInt8_Int16(TfLiteContext*, TfLiteNode*)	1
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/kernel_util.h:83:10:const T* tflite::micro::GetTensorData(const TfLiteEvalTensor*) [with T = short int]	1
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/cmsis_nn/softmax.cc:89:14:TfLiteStatus tflite::{anonymous}::SoftmaxEval(TfLiteContext*, TfLiteNode*)	5
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/cmsis_nn/softmax.cc:179:14:TfLiteStatus tflite::{anonymous}::SoftmaxEvalInt16(TfLiteContext*, TfLiteNode*)	1

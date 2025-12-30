@@ -1,0 +1,2 @@
+../Middlewares/tensorflow/third_party/cmsis_nn/Source/ConvolutionFunctions/arm_depthwise_conv_s4.c:43:13:depthwise_conv_s4_generic	152	static
+../Middlewares/tensorflow/third_party/cmsis_nn/Source/ConvolutionFunctions/arm_depthwise_conv_s4.c:492:21:arm_depthwise_conv_s4	152	static

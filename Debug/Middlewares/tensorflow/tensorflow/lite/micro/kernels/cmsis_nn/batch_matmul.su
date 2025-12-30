@@ -1,0 +1,22 @@
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/cmsis_nn/batch_matmul.cc:43:15:cmsis_nn_dims tflite::{anonymous}::FillVariableShape(int32_t, int32_t*)	0	static
+../Middlewares/tensorflow/tensorflow/lite/kernels/op_macros.h:24:13:void AbortImpl()	8	static
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/cmsis_nn/batch_matmul.cc:174:7:void* tflite::{anonymous}::Init(TfLiteContext*, const char*, size_t)	8	static
+../Middlewares/tensorflow/tensorflow/lite/kernels/internal/runtime_shape.h:67:11:int32_t tflite::RuntimeShape::Dims(int) const	8	static
+../Middlewares/tensorflow/tensorflow/lite/kernels/internal/runtime_shape.h:72:8:void tflite::RuntimeShape::SetDim(int, int32_t)	8	static
+../Middlewares/tensorflow/tensorflow/lite/kernels/internal/runtime_shape.h:87:8:void tflite::RuntimeShape::ReplaceWith(int, const int32_t*)	8	static
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/cmsis_nn/batch_matmul.cc:55:21:TfLiteStatus tflite::{anonymous}::PopulateEvalData(TfLiteContext*, OpData*, const TfLiteBatchMatMulParams*, TfLiteNode*, const TfLiteEvalTensor*, tflite::RuntimeShape*, TfLiteEvalTensor**, const TfLiteEvalTensor*, tflite::RuntimeShape*, TfLiteEvalTensor**, const TfLiteEvalTensor*)	176	static
+../Middlewares/tensorflow/tensorflow/lite/kernels/internal/runtime_shape.h:109:3:tflite::RuntimeShape::RuntimeShape(int, const tflite::RuntimeShape&, int)	24	static
+../Middlewares/tensorflow/tensorflow/lite/kernels/internal/reference/batch_matmul.h:40:12:int tflite::reference_ops::batch_matmul::extent(const tflite::RuntimeShape&, int)	16	static
+../Middlewares/tensorflow/tensorflow/lite/kernels/kernel_util.h:171:16:int64_t tflite::NumElements(const int*, int)	40	static
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/cmsis_nn/batch_matmul.cc:137:19:TfLiteEvalTensor* tflite::{anonymous}::AllocInitTransposeTensorFromTfLiteTensor(TfLiteContext*, tflite::MicroContext*, const TfLiteTensor&)	24	static
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/cmsis_nn/batch_matmul.cc:179:14:TfLiteStatus tflite::{anonymous}::Prepare(TfLiteContext*, TfLiteNode*)	216	static
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/cmsis_nn/batch_matmul.cc:523:18:TFLMRegistration tflite::Register_BATCH_MATMUL()	16	static
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/cmsis_nn/batch_matmul.cc:527:18:TFLMRegistration tflite::Register_BATCH_MATMUL_INT8()	16	static
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/cmsis_nn/batch_matmul.cc:531:18:TFLMRegistration tflite::Register_BATCH_MATMUL_INT16()	16	static
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/kernel_util.h:76:4:T* tflite::micro::GetTensorData(TfLiteEvalTensor*) [with T = signed char]	8	static
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/cmsis_nn/batch_matmul.cc:327:14:TfLiteStatus tflite::{anonymous}::EvalInt8(TfLiteContext*, TfLiteNode*)	248	static
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/kernel_util.h:76:4:T* tflite::micro::GetTensorData(TfLiteEvalTensor*) [with T = short int]	8	static
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/cmsis_nn/batch_matmul.cc:401:14:TfLiteStatus tflite::{anonymous}::EvalInt16(TfLiteContext*, TfLiteNode*)	248	static
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/kernel_util.h:76:4:T* tflite::micro::GetTensorData(TfLiteEvalTensor*) [with T = float]	8	static
+../Middlewares/tensorflow/tensorflow/lite/kernels/internal/reference/batch_matmul.h:54:13:void tflite::reference_ops::BatchMatMul(const tflite::RuntimeShape&, const Ta*, const tflite::RuntimeShape&, const Tb*, const tflite::RuntimeShape&, Tout*) [with Ta = float; Tb = float; Tout = float]	168	static
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/cmsis_nn/batch_matmul.cc:471:14:TfLiteStatus tflite::{anonymous}::Eval(TfLiteContext*, TfLiteNode*)	176	static

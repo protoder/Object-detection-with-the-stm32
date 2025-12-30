@@ -1,0 +1,11 @@
+../Middlewares/tensorflow/tensorflow/lite/kernels/op_macros.h:24:13:void AbortImpl()	1
+../Middlewares/tensorflow/tensorflow/lite/kernels/internal/runtime_shape.h:67:11:int32_t tflite::RuntimeShape::Dims(int) const	1
+../Middlewares/tensorflow/tensorflow/lite/kernels/internal/runtime_shape.h:72:8:void tflite::RuntimeShape::SetDim(int, int32_t)	1
+../Middlewares/tensorflow/tensorflow/lite/kernels/internal/runtime_shape.h:109:3:tflite::RuntimeShape::RuntimeShape(int, const tflite::RuntimeShape&, int)	2
+../Middlewares/tensorflow/tensorflow/lite/kernels/internal/runtime_shape.h:133:12:int tflite::Offset(const RuntimeShape&, int, int, int, int)	13
+../Middlewares/tensorflow/tensorflow/lite/kernels/internal/common.h:1001:12:int tflite::SubscriptToIndex(const NdArrayDesc<4>&, int, int, int, int)	5
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/prelu_common.cc:28:14:TfLiteStatus tflite::CalculatePreluParams(const TfLiteTensor*, const TfLiteTensor*, TfLiteTensor*, PreluParams*)	2
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/prelu_common.cc:83:14:TfLiteStatus tflite::PreluPrepare(TfLiteContext*, TfLiteNode*)	5
+../Middlewares/tensorflow/tensorflow/lite/kernels/internal/common.h:1083:22:void tflite::CopyDimsToDesc(const RuntimeShape&, NdArrayDesc<N>*) [with int N = 4]	2
+../Middlewares/tensorflow/tensorflow/lite/kernels/internal/common.h:1094:13:void tflite::NdArrayDescsForElementwiseBroadcast(const RuntimeShape&, const RuntimeShape&, NdArrayDesc<N>*, NdArrayDesc<N>*) [with int N = 4]	4
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/prelu_common.cc:50:6:void tflite::BroadcastPrelu4DSlowFloat(const RuntimeShape&, const float*, const RuntimeShape&, const float*, const RuntimeShape&, float*)	6

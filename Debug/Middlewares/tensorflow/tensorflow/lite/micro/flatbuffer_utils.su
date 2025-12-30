@@ -1,0 +1,41 @@
+../Middlewares/tensorflow/tensorflow/lite/micro/flatbuffer_utils.cc:64:17:TfLiteIntArray* tflite::FlatBufferVectorToTfLiteTypeArray(const flatbuffers::Vector<long int>*)	0	static
+../Middlewares/tensorflow/tensorflow/lite/micro/flatbuffer_utils.cc:74:19:TfLiteFloatArray* tflite::FlatBufferVectorToTfLiteTypeArray(const flatbuffers::Vector<float>*)	0	static
+../Middlewares/tensorflow/third_party/flatbuffers/include/flatbuffers/base.h:425:24:T flatbuffers::EndianScalar(T) [with T = long unsigned int]	0	static
+../Middlewares/tensorflow/third_party/flatbuffers/include/flatbuffers/base.h:436:3:T flatbuffers::ReadScalar(const void*) [with T = long unsigned int]	8	static
+../Middlewares/tensorflow/third_party/flatbuffers/include/flatbuffers/vector.h:175:15:flatbuffers::Vector<T, SizeT>::return_type flatbuffers::Vector<T, SizeT>::Get(SizeT) const [with T = flatbuffers::Offset<tflite::SubGraph>; SizeT = long unsigned int]	16	static
+../Middlewares/tensorflow/third_party/flatbuffers/include/flatbuffers/base.h:425:24:T flatbuffers::EndianScalar(T) [with T = long int]	0	static
+../Middlewares/tensorflow/third_party/flatbuffers/include/flatbuffers/base.h:436:3:T flatbuffers::ReadScalar(const void*) [with T = long int]	8	static
+../Middlewares/tensorflow/third_party/flatbuffers/include/flatbuffers/base.h:425:24:T flatbuffers::EndianScalar(T) [with T = short unsigned int]	0	static
+../Middlewares/tensorflow/third_party/flatbuffers/include/flatbuffers/base.h:436:3:T flatbuffers::ReadScalar(const void*) [with T = short unsigned int]	8	static
+../Middlewares/tensorflow/third_party/flatbuffers/include/flatbuffers/table.h:35:13:flatbuffers::voffset_t flatbuffers::Table::GetOptionalFieldOffset(flatbuffers::voffset_t) const	16	static
+../Middlewares/tensorflow/third_party/flatbuffers/include/flatbuffers/base.h:425:24:T flatbuffers::EndianScalar(T) [with T = unsigned char]	0	static
+../Middlewares/tensorflow/third_party/flatbuffers/include/flatbuffers/base.h:436:3:T flatbuffers::ReadScalar(const void*) [with T = unsigned char]	8	static
+../Middlewares/tensorflow/third_party/flatbuffers/include/flatbuffers/base.h:425:24:T flatbuffers::EndianScalar(T) [with T = long long int]	0	static
+../Middlewares/tensorflow/third_party/flatbuffers/include/flatbuffers/base.h:436:3:T flatbuffers::ReadScalar(const void*) [with T = long long int]	8	static
+../Middlewares/tensorflow/third_party/flatbuffers/include/flatbuffers/base.h:425:24:T flatbuffers::EndianScalar(T) [with T = long long unsigned int]	0	static
+../Middlewares/tensorflow/third_party/flatbuffers/include/flatbuffers/base.h:436:3:T flatbuffers::ReadScalar(const void*) [with T = long long unsigned int]	8	static
+../Middlewares/tensorflow/third_party/flatbuffers/include/flatbuffers/flexbuffers.h:139:3:R flexbuffers::ReadSizedScalar(const uint8_t*, uint8_t) [with R = long long unsigned int; T1 = unsigned char; T2 = short unsigned int; T4 = long unsigned int; T8 = long long unsigned int]	8	static
+../Middlewares/tensorflow/third_party/flatbuffers/include/flatbuffers/flexbuffers.h:765:18:const uint8_t* flexbuffers::Reference::Indirect() const	8	static
+../Middlewares/tensorflow/third_party/flatbuffers/include/flatbuffers/flexbuffers.h:233:10:size_t flexbuffers::Sized::read_size() const	8	static
+../Middlewares/tensorflow/third_party/flatbuffers/include/flatbuffers/flexbuffers.h:641:10:flexbuffers::Vector flexbuffers::Reference::AsVector() const	16	static
+../Middlewares/tensorflow/tensorflow/lite/micro/flatbuffer_utils.cc:20:1:tflite::FlexbufferWrapper::FlexbufferWrapper(const uint8_t*, size_t)	16	static
+../Middlewares/tensorflow/tensorflow/lite/micro/flatbuffer_utils.cc:28:10:uint64_t tflite::FlexbufferWrapper::ElementAsUInt64(size_t) const	8	static
+../Middlewares/tensorflow/tensorflow/lite/micro/flatbuffer_utils.cc:37:6:bool tflite::FlexbufferWrapper::ElementAsBool(size_t) const	8	static
+../Middlewares/tensorflow/third_party/flatbuffers/include/flatbuffers/base.h:425:24:T flatbuffers::EndianScalar(T) [with T = double]	0	static
+../Middlewares/tensorflow/third_party/flatbuffers/include/flatbuffers/base.h:436:3:T flatbuffers::ReadScalar(const void*) [with T = double]	8	static
+../Middlewares/tensorflow/third_party/flatbuffers/include/flatbuffers/base.h:425:24:T flatbuffers::EndianScalar(T) [with T = float]	0	static
+../Middlewares/tensorflow/third_party/flatbuffers/include/flatbuffers/base.h:436:3:T flatbuffers::ReadScalar(const void*) [with T = float]	8	static
+../Middlewares/tensorflow/third_party/flatbuffers/include/flatbuffers/table.h:51:5:P flatbuffers::Table::GetPointer(flatbuffers::voffset_t) [with P = const flatbuffers::Vector<flatbuffers::Offset<tflite::Operator> >*; OffsetSize = long unsigned int]	8	static
+../Middlewares/tensorflow/tensorflow/lite/micro/flatbuffer_utils.cc:51:10:uint32_t tflite::NumSubgraphOperators(const SubGraph*)	8	static
+../Middlewares/tensorflow/third_party/flatbuffers/include/flatbuffers/table.h:51:5:P flatbuffers::Table::GetPointer(flatbuffers::voffset_t) [with P = const flatbuffers::Vector<flatbuffers::Offset<tflite::SubGraph> >*; OffsetSize = long unsigned int]	8	static
+../Middlewares/tensorflow/tensorflow/lite/micro/flatbuffer_utils.cc:59:10:uint32_t tflite::NumSubgraphOperators(const Model*, int)	8	static
+../Middlewares/tensorflow/third_party/flatbuffers/include/flatbuffers/base.h:425:24:T flatbuffers::EndianScalar(T) [with T = signed char]	0	static
+../Middlewares/tensorflow/third_party/flatbuffers/include/flatbuffers/base.h:436:3:T flatbuffers::ReadScalar(const void*) [with T = signed char]	8	static
+../Middlewares/tensorflow/third_party/flatbuffers/include/flatbuffers/base.h:425:24:T flatbuffers::EndianScalar(T) [with T = short int]	0	static
+../Middlewares/tensorflow/third_party/flatbuffers/include/flatbuffers/base.h:436:3:T flatbuffers::ReadScalar(const void*) [with T = short int]	8	static
+../Middlewares/tensorflow/third_party/flatbuffers/include/flatbuffers/flexbuffers.h:139:3:R flexbuffers::ReadSizedScalar(const uint8_t*, uint8_t) [with R = long long int; T1 = signed char; T2 = short int; T4 = long int; T8 = long long int]	8	static
+../Middlewares/tensorflow/tensorflow/lite/micro/flatbuffer_utils.cc:23:9:int64_t tflite::FlexbufferWrapper::ElementAsInt64(size_t) const	8	static
+../Middlewares/tensorflow/tensorflow/lite/micro/flatbuffer_utils.cc:33:9:int32_t tflite::FlexbufferWrapper::ElementAsInt32(size_t) const	8	static
+../Middlewares/tensorflow/third_party/flatbuffers/include/flatbuffers/flexbuffers.h:139:3:R flexbuffers::ReadSizedScalar(const uint8_t*, uint8_t) [with R = double; T1 = signed char; T2 = short int; T4 = float; T8 = double]	8	static
+../Middlewares/tensorflow/tensorflow/lite/micro/flatbuffer_utils.cc:41:8:double tflite::FlexbufferWrapper::ElementAsDouble(size_t) const	8	static
+../Middlewares/tensorflow/tensorflow/lite/micro/flatbuffer_utils.cc:46:7:float tflite::FlexbufferWrapper::ElementAsFloat(size_t) const	8	static

@@ -1,0 +1,24 @@
+../Middlewares/tensorflow/tensorflow/lite/kernels/op_macros.h:24:13:void AbortImpl()	1
+../Middlewares/tensorflow/tensorflow/lite/kernels/internal/runtime_shape.h:67:11:int32_t tflite::RuntimeShape::Dims(int) const	1
+../Middlewares/tensorflow/tensorflow/lite/kernels/kernel_util.h:171:16:int64_t tflite::NumElements(const int*, int)	3
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/cumsum.cc:47:14:TfLiteStatus tflite::{anonymous}::CalculateOpData(TfLiteContext*, TfLiteNode*)	15
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/cumsum.cc:107:14:TfLiteStatus tflite::{anonymous}::CumSumPrepare(TfLiteContext*, TfLiteNode*)	1
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/cumsum.cc:171:18:TFLMRegistration tflite::Register_CUMSUM()	1
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/kernel_util.h:83:10:const T* tflite::micro::GetTensorData(const TfLiteEvalTensor*) [with T = long int]	1
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/kernel_util.h:83:10:const T* tflite::micro::GetTensorData(const TfLiteEvalTensor*) [with T = float]	1
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/kernel_util.h:76:4:T* tflite::micro::GetTensorData(TfLiteEvalTensor*) [with T = float]	1
+../Middlewares/tensorflow/tensorflow/lite/kernels/internal/reference/cumsum.h:29:13:void tflite::reference_ops::CumSum(const T*, const tflite::RuntimeShape&, int32_t, bool, bool, T*) [with T = float]	11
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/kernel_util.h:83:10:const T* tflite::micro::GetTensorData(const TfLiteEvalTensor*) [with T = signed char]	1
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/kernel_util.h:76:4:T* tflite::micro::GetTensorData(TfLiteEvalTensor*) [with T = signed char]	1
+../Middlewares/tensorflow/third_party/gemmlowp/fixedpoint/fixedpoint.h:64:10:tRawType gemmlowp::Dup(typename FixedPointRawTypeTraits<tRawType>::ScalarRawType) [with tRawType = long int]	1
+../Middlewares/tensorflow/third_party/gemmlowp/fixedpoint/fixedpoint.h:70:14:tIntegerType gemmlowp::BitAnd(tIntegerType, tIntegerType) [with tIntegerType = long int]	1
+../Middlewares/tensorflow/third_party/gemmlowp/fixedpoint/fixedpoint.h:140:14:tIntegerType gemmlowp::ShiftRight(tIntegerType, int) [with tIntegerType = long int]	1
+../Middlewares/tensorflow/third_party/gemmlowp/fixedpoint/fixedpoint.h:94:14:tIntegerType gemmlowp::Add(tIntegerType, tIntegerType) [with tIntegerType = long int]	1
+../Middlewares/tensorflow/third_party/gemmlowp/fixedpoint/fixedpoint.h:88:14:tIntegerType gemmlowp::BitNot(tIntegerType) [with tIntegerType = long int]	1
+../Middlewares/tensorflow/third_party/gemmlowp/fixedpoint/fixedpoint.h:156:14:tIntegerType gemmlowp::MaskIfNonZero(tIntegerType) [with tIntegerType = long int]	2
+../Middlewares/tensorflow/third_party/gemmlowp/fixedpoint/fixedpoint.h:199:14:tIntegerType gemmlowp::MaskIfLessThan(tIntegerType, tIntegerType) [with tIntegerType = long int]	1
+../Middlewares/tensorflow/third_party/gemmlowp/fixedpoint/fixedpoint.h:185:14:tIntegerType gemmlowp::MaskIfGreaterThan(tIntegerType, tIntegerType) [with tIntegerType = long int]	1
+../Middlewares/tensorflow/third_party/gemmlowp/fixedpoint/fixedpoint.h:357:20:IntegerType gemmlowp::RoundingDivideByPOT(IntegerType, int) [with IntegerType = long int]	1
+../Middlewares/tensorflow/tensorflow/lite/kernels/internal/common.h:315:16:int32_t tflite::MultiplyByQuantizedMultiplierSmallerThanOneExp(int32_t, int32_t, int)	4
+../Middlewares/tensorflow/tensorflow/lite/kernels/internal/reference/cumsum.h:87:13:void tflite::reference_ops::CumSum(const tflite::ArithmeticParams&, const int8_t*, const tflite::RuntimeShape&, int32_t, bool, bool, int8_t*)	13
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/cumsum.cc:111:14:TfLiteStatus tflite::{anonymous}::CumSumEval(TfLiteContext*, TfLiteNode*)	6

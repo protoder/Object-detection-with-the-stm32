@@ -1,0 +1,14 @@
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/mirror_pad.cc:42:12:int tflite::{anonymous}::GetInputDimension(int, int, int, int, int)	16	static
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/mirror_pad.cc:59:5:int tflite::{anonymous}::GetFlatIndex(int, int, const TfLiteEvalTensor*, const TfLiteIntArray*, int*, int*, int)	64	static
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/mirror_pad.cc:91:6:void tflite::{anonymous}::MirrorPad(const TfLiteEvalTensor*, const TfLiteIntArray*, int*, int*, const T*, T*, int, int, int) [with T = float]	64	static
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/mirror_pad.cc:91:6:void tflite::{anonymous}::MirrorPad(const TfLiteEvalTensor*, const TfLiteIntArray*, int*, int*, const T*, T*, int, int, int) [with T = signed char]	64	static
+../Middlewares/tensorflow/tensorflow/lite/kernels/op_macros.h:24:13:void AbortImpl()	8	static
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/mirror_pad.cc:164:7:void* tflite::{anonymous}::MirrorPadInit(TfLiteContext*, const char*, size_t)	8	static
+../Middlewares/tensorflow/tensorflow/lite/kernels/kernel_util.h:171:16:int64_t tflite::NumElements(const int*, int)	40	static
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/mirror_pad.cc:169:14:TfLiteStatus tflite::{anonymous}::MirrorPadPrepare(TfLiteContext*, TfLiteNode*)	48	static
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/mirror_pad.cc:211:18:TFLMRegistration tflite::Register_MIRROR_PAD()	16	static
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/kernel_util.h:83:10:const T* tflite::micro::GetTensorData(const TfLiteEvalTensor*) [with T = float]	8	static
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/kernel_util.h:76:4:T* tflite::micro::GetTensorData(TfLiteEvalTensor*) [with T = float]	8	static
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/kernel_util.h:83:10:const T* tflite::micro::GetTensorData(const TfLiteEvalTensor*) [with T = signed char]	8	static
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/kernel_util.h:76:4:T* tflite::micro::GetTensorData(TfLiteEvalTensor*) [with T = signed char]	8	static
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/mirror_pad.cc:103:14:TfLiteStatus tflite::{anonymous}::MirrorPadEval(TfLiteContext*, TfLiteNode*)	72	static

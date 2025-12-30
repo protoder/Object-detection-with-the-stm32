@@ -1,0 +1,9 @@
+../Middlewares/tensorflow/signal/micro/kernels/filter_bank_spectral_subtraction.cc:54:6:void tflite::{anonymous}::FilterBankSpectralSubtractionResetState(TFLMSignalSpectralSubtractionParams*)	8	static
+../Middlewares/tensorflow/signal/micro/kernels/filter_bank_spectral_subtraction.cc:165:6:void tflite::{anonymous}::FilterBankSpectralSubtractionReset(TfLiteContext*, void*)	8	static
+../Middlewares/tensorflow/signal/micro/kernels/filter_bank_spectral_subtraction.cc:101:14:TfLiteStatus tflite::{anonymous}::FilterBankSpectralSubtractionPrepare(TfLiteContext*, TfLiteNode*)	48	static
+../Middlewares/tensorflow/tensorflow/lite/kernels/op_macros.h:24:13:void AbortImpl()	8	static
+../Middlewares/tensorflow/signal/micro/kernels/filter_bank_spectral_subtraction.cc:60:7:void* tflite::{anonymous}::FilterBankSpectralSubtractionInit(TfLiteContext*, const char*, size_t)	40	static
+../Middlewares/tensorflow/signal/micro/kernels/filter_bank_spectral_subtraction.cc:174:19:TFLMRegistration* tflite::tflm_signal::Register_FILTER_BANK_SPECTRAL_SUBTRACTION()	16	static
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/kernel_util.h:83:10:const T* tflite::micro::GetTensorData(const TfLiteEvalTensor*) [with T = long unsigned int]	8	static
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/kernel_util.h:76:4:T* tflite::micro::GetTensorData(TfLiteEvalTensor*) [with T = long unsigned int]	8	static
+../Middlewares/tensorflow/signal/micro/kernels/filter_bank_spectral_subtraction.cc:139:14:TfLiteStatus tflite::{anonymous}::FilterBankSpectralSubtractionEval(TfLiteContext*, TfLiteNode*)	24	static

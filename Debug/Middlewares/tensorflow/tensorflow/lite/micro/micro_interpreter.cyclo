@@ -1,0 +1,42 @@
+../Middlewares/tensorflow/tensorflow/lite/micro/micro_context.h:183:14:void* tflite::MicroContextAllocatePersistentBuffer(TfLiteContext*, size_t)	1
+../Middlewares/tensorflow/tensorflow/lite/micro/micro_context.h:187:21:TfLiteStatus tflite::MicroContextRequestScratchBufferInArena(TfLiteContext*, size_t, int*)	1
+../Middlewares/tensorflow/tensorflow/lite/micro/micro_context.h:192:14:void* tflite::MicroContextGetScratchBuffer(TfLiteContext*, int)	1
+../Middlewares/tensorflow/tensorflow/lite/micro/micro_context.h:195:22:TfLiteTensor* tflite::MicroContextGetTensor(const TfLiteContext*, int)	1
+../Middlewares/tensorflow/tensorflow/lite/micro/micro_context.h:199:26:TfLiteEvalTensor* tflite::MicroContextGetEvalTensor(const TfLiteContext*, int)	1
+../Middlewares/tensorflow/tensorflow/lite/micro/micro_context.h:203:31:TfLiteExternalContext* tflite::MicroContextGetExternalContext(TfLiteContext*, TfLiteExternalContextType)	1
+../Middlewares/tensorflow/tensorflow/lite/micro/micro_interpreter.cc:37:19:tflite::MemoryPlannerType tflite::{anonymous}::FlagToMemoryPlannerType(bool)	2
+../Middlewares/tensorflow/tensorflow/lite/kernels/op_macros.h:24:13:void AbortImpl()	1
+../Middlewares/tensorflow/tensorflow/lite/micro/micro_interpreter.cc:90:6:void tflite::MicroInterpreter::Init(tflite::MicroProfilerInterface*)	1
+../Middlewares/tensorflow/tensorflow/lite/micro/micro_interpreter.cc:46:1:tflite::MicroInterpreter::MicroInterpreter(const tflite::Model*, const tflite::MicroOpResolver&, uint8_t*, size_t, tflite::MicroResourceVariables*, tflite::MicroProfilerInterface*, bool)	1
+../Middlewares/tensorflow/tensorflow/lite/micro/micro_interpreter.cc:67:1:tflite::MicroInterpreter::MicroInterpreter(const tflite::Model*, const tflite::MicroOpResolver&, tflite::MicroAllocator*, tflite::MicroResourceVariables*, tflite::MicroProfilerInterface*)	1
+../Middlewares/tensorflow/tensorflow/lite/micro/micro_interpreter.cc:323:19:TfLiteEvalTensor* tflite::MicroInterpreter::GetTensor(int, int)	2
+../Middlewares/tensorflow/third_party/flatbuffers/include/flatbuffers/base.h:425:24:T flatbuffers::EndianScalar(T) [with T = long unsigned int]	1
+../Middlewares/tensorflow/third_party/flatbuffers/include/flatbuffers/base.h:436:3:T flatbuffers::ReadScalar(const void*) [with T = long unsigned int]	1
+../Middlewares/tensorflow/third_party/flatbuffers/include/flatbuffers/vector.h:175:15:flatbuffers::Vector<T, SizeT>::return_type flatbuffers::Vector<T, SizeT>::Get(SizeT) const [with T = flatbuffers::Offset<tflite::Operator>; SizeT = long unsigned int]	1
+../Middlewares/tensorflow/third_party/flatbuffers/include/flatbuffers/vector.h:175:15:flatbuffers::Vector<T, SizeT>::return_type flatbuffers::Vector<T, SizeT>::Get(SizeT) const [with T = flatbuffers::Offset<tflite::OperatorCode>; SizeT = long unsigned int]	1
+../Middlewares/tensorflow/third_party/flatbuffers/include/flatbuffers/vector.h:175:15:flatbuffers::Vector<T, SizeT>::return_type flatbuffers::Vector<T, SizeT>::Get(SizeT) const [with T = flatbuffers::Offset<tflite::SubGraph>; SizeT = long unsigned int]	1
+../Middlewares/tensorflow/third_party/flatbuffers/include/flatbuffers/base.h:425:24:T flatbuffers::EndianScalar(T) [with T = long int]	1
+../Middlewares/tensorflow/third_party/flatbuffers/include/flatbuffers/base.h:436:3:T flatbuffers::ReadScalar(const void*) [with T = long int]	1
+../Middlewares/tensorflow/third_party/flatbuffers/include/flatbuffers/vector.h:175:15:flatbuffers::Vector<T, SizeT>::return_type flatbuffers::Vector<T, SizeT>::Get(SizeT) const [with T = long int; SizeT = long unsigned int]	1
+../Middlewares/tensorflow/third_party/flatbuffers/include/flatbuffers/base.h:425:24:T flatbuffers::EndianScalar(T) [with T = short unsigned int]	1
+../Middlewares/tensorflow/third_party/flatbuffers/include/flatbuffers/base.h:436:3:T flatbuffers::ReadScalar(const void*) [with T = short unsigned int]	1
+../Middlewares/tensorflow/third_party/flatbuffers/include/flatbuffers/table.h:35:13:flatbuffers::voffset_t flatbuffers::Table::GetOptionalFieldOffset(flatbuffers::voffset_t) const	2
+../Middlewares/tensorflow/third_party/flatbuffers/include/flatbuffers/table.h:45:26:T flatbuffers::Table::GetField(flatbuffers::voffset_t, T) const [with T = long unsigned int]	2
+../Middlewares/tensorflow/third_party/flatbuffers/include/flatbuffers/table.h:51:5:P flatbuffers::Table::GetPointer(flatbuffers::voffset_t) [with P = const flatbuffers::Vector<unsigned char>*; OffsetSize = long unsigned int]	2
+../Middlewares/tensorflow/third_party/flatbuffers/include/flatbuffers/table.h:51:5:P flatbuffers::Table::GetPointer(flatbuffers::voffset_t) [with P = const flatbuffers::Vector<long int>*; OffsetSize = long unsigned int]	2
+../Middlewares/tensorflow/third_party/flatbuffers/include/flatbuffers/table.h:51:5:P flatbuffers::Table::GetPointer(flatbuffers::voffset_t) [with P = const flatbuffers::Vector<flatbuffers::Offset<tflite::Operator> >*; OffsetSize = long unsigned int]	2
+../Middlewares/tensorflow/third_party/flatbuffers/include/flatbuffers/table.h:51:5:P flatbuffers::Table::GetPointer(flatbuffers::voffset_t) [with P = const flatbuffers::Vector<flatbuffers::Offset<tflite::OperatorCode> >*; OffsetSize = long unsigned int]	2
+../Middlewares/tensorflow/third_party/flatbuffers/include/flatbuffers/table.h:51:5:P flatbuffers::Table::GetPointer(flatbuffers::voffset_t) [with P = const flatbuffers::Vector<flatbuffers::Offset<tflite::SubGraph> >*; OffsetSize = long unsigned int]	2
+../Middlewares/tensorflow/tensorflow/lite/micro/micro_interpreter.h:93:39:const flatbuffers::Vector<long int>& tflite::MicroInterpreter::inputs() const	1
+../Middlewares/tensorflow/tensorflow/lite/micro/micro_interpreter.h:90:10:size_t tflite::MicroInterpreter::inputs_size() const	1
+../Middlewares/tensorflow/tensorflow/lite/micro/micro_interpreter.cc:297:15:TfLiteTensor* tflite::MicroInterpreter::input(size_t)	2
+../Middlewares/tensorflow/tensorflow/lite/micro/micro_interpreter.h:111:39:const flatbuffers::Vector<long int>& tflite::MicroInterpreter::outputs() const	1
+../Middlewares/tensorflow/tensorflow/lite/micro/micro_interpreter.h:108:10:size_t tflite::MicroInterpreter::outputs_size() const	1
+../Middlewares/tensorflow/tensorflow/lite/micro/micro_interpreter.cc:306:15:TfLiteTensor* tflite::MicroInterpreter::output(size_t)	2
+../Middlewares/tensorflow/tensorflow/lite/micro/micro_interpreter.cc:84:1:tflite::MicroInterpreter::~MicroInterpreter()	2
+../Middlewares/tensorflow/tensorflow/lite/micro/micro_interpreter.cc:107:14:TfLiteStatus tflite::MicroInterpreter::PrepareNodeAndRegistrationDataFromFlatbuffer()	19
+../Middlewares/tensorflow/tensorflow/lite/micro/micro_interpreter.cc:315:14:TfLiteStatus tflite::MicroInterpreter::Reset()	2
+../Middlewares/tensorflow/tensorflow/lite/micro/micro_interpreter.cc:200:14:TfLiteStatus tflite::MicroInterpreter::AllocateTensors()	13
+../Middlewares/tensorflow/tensorflow/lite/micro/micro_interpreter.cc:283:14:TfLiteStatus tflite::MicroInterpreter::Invoke()	4
+../Middlewares/tensorflow/tensorflow/lite/micro/micro_interpreter.cc:332:14:TfLiteStatus tflite::MicroInterpreter::SetMicroExternalContext(void*)	1
+../Middlewares/tensorflow/tensorflow/lite/micro/micro_interpreter.cc:337:14:TfLiteStatus tflite::MicroInterpreter::SetAlternateProfiler(tflite::MicroProfilerInterface*)	1

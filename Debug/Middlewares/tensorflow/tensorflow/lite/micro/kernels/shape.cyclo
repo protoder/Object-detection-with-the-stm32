@@ -1,0 +1,6 @@
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/shape.cc:32:6:void tflite::{anonymous}::ExtractShape(const TfLiteEvalTensor*, int32_t*)	2
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/shape.cc:38:14:TfLiteStatus tflite::{anonymous}::ShapePrepare(TfLiteContext*, TfLiteNode*)	7
+../Middlewares/tensorflow/tensorflow/lite/kernels/op_macros.h:24:13:void AbortImpl()	1
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/shape.cc:63:18:TFLMRegistration tflite::Register_SHAPE()	1
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/kernel_util.h:76:4:T* tflite::micro::GetTensorData(TfLiteEvalTensor*) [with T = long int]	1
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/shape.cc:45:14:TfLiteStatus tflite::{anonymous}::ShapeEval(TfLiteContext*, TfLiteNode*)	2

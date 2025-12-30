@@ -1,0 +1,26 @@
+../Middlewares/tensorflow/tensorflow/lite/kernels/op_macros.h:24:13:void AbortImpl()	8	static
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/cmsis_nn/transpose_conv.cc:152:7:void* tflite::{anonymous}::Init(TfLiteContext*, const char*, size_t)	8	static
+../Middlewares/tensorflow/tensorflow/lite/kernels/internal/runtime_shape.h:67:11:int32_t tflite::RuntimeShape::Dims(int) const	8	static
+../Middlewares/tensorflow/tensorflow/lite/kernels/internal/runtime_shape.h:133:12:int tflite::Offset(const RuntimeShape&, int, int, int, int)	16	static
+../Middlewares/tensorflow/tensorflow/lite/kernels/internal/types.h:265:12:int tflite::MatchingDim(const RuntimeShape&, int, const RuntimeShape&, int)	24	static
+../Middlewares/tensorflow/tensorflow/lite/kernels/internal/reference/transpose_conv.h:27:13:void tflite::reference_ops::TransposeConv(const tflite::ConvParams&, const tflite::RuntimeShape&, const float*, const tflite::RuntimeShape&, const float*, const tflite::RuntimeShape&, const float*, const tflite::RuntimeShape&, float*, const tflite::RuntimeShape&, float*)	160	static
+../Middlewares/tensorflow/tensorflow/lite/kernels/padding.h:44:12:int tflite::ComputeOutSize(TfLitePadding, int, int, int, int)	4	static
+../Middlewares/tensorflow/tensorflow/lite/kernels/padding.h:62:28:TfLitePaddingValues tflite::ComputePaddingHeightWidth(int, int, int, int, int, int, int, int, TfLitePadding, int*, int*)	48	static
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/cmsis_nn/transpose_conv.cc:75:14:TfLiteStatus tflite::{anonymous}::CalculateOpData(TfLiteContext*, TfLiteNode*, const TfLiteTransposeConvParams*, int, int, int, int, TfLiteType, OpData*)	144	static
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/cmsis_nn/transpose_conv.cc:157:14:TfLiteStatus tflite::{anonymous}::Prepare(TfLiteContext*, TfLiteNode*)	296	static
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/cmsis_nn/transpose_conv.cc:507:18:TFLMRegistration tflite::Register_TRANSPOSE_CONV()	16	static
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/cmsis_nn/transpose_conv.cc:511:18:TFLMRegistration tflite::Register_TRANSPOSE_CONV_INT8()	16	static
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/kernel_util.h:96:10:const T* tflite::micro::GetOptionalTensorData(const TfLiteEvalTensor*) [with T = long int]	0	static
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/kernel_util.h:83:10:const T* tflite::micro::GetTensorData(const TfLiteEvalTensor*) [with T = signed char]	8	static
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/kernel_util.h:76:4:T* tflite::micro::GetTensorData(TfLiteEvalTensor*) [with T = signed char]	8	static
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/cmsis_nn/transpose_conv.cc:302:14:TfLiteStatus tflite::{anonymous}::EvalQuantizedPerChannel(TfLiteContext*, TfLiteNode*, const TfLiteConvParams&, const OpData&, const TfLiteEvalTensor*, const TfLiteEvalTensor*, const TfLiteEvalTensor*, TfLiteEvalTensor*)	320	static
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/cmsis_nn/transpose_conv.cc:483:14:TfLiteStatus tflite::{anonymous}::EvalInt8(TfLiteContext*, TfLiteNode*)	40	static
+../Middlewares/tensorflow/tensorflow/lite/kernels/kernel_util.h:285:6:void tflite::CalculateActivationRange(TfLiteFusedActivation, T*, T*) [with T = float]	0	static
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/kernel_util.h:83:10:const T* tflite::micro::GetTensorData(const TfLiteEvalTensor*) [with T = float]	8	static
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/kernel_util.h:96:10:const T* tflite::micro::GetOptionalTensorData(const TfLiteEvalTensor*) [with T = float]	0	static
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/kernel_util.h:76:4:T* tflite::micro::GetTensorData(TfLiteEvalTensor*) [with T = float]	8	static
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/kernel_util.h:83:10:const T* tflite::micro::GetTensorData(const TfLiteEvalTensor*) [with T = short int]	8	static
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/kernel_util.h:76:4:T* tflite::micro::GetTensorData(TfLiteEvalTensor*) [with T = short int]	8	static
+../Middlewares/tensorflow/tensorflow/lite/kernels/internal/reference/integer_ops/transpose_conv.h:126:13:void tflite::reference_integer_ops::TransposeConv(const tflite::ConvParams&, const int32_t*, const int32_t*, const tflite::RuntimeShape&, const int16_t*, const tflite::RuntimeShape&, const int8_t*, const tflite::RuntimeShape&, const Scalar*, const tflite::RuntimeShape&, int16_t*, const tflite::RuntimeShape&, int8_t*, Scalar*) [with Scalar = long long int]	152	static
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/kernel_util.h:96:10:const T* tflite::micro::GetOptionalTensorData(const TfLiteEvalTensor*) [with T = long long int]	0	static
+../Middlewares/tensorflow/tensorflow/lite/micro/kernels/cmsis_nn/transpose_conv.cc:394:14:TfLiteStatus tflite::{anonymous}::Eval(TfLiteContext*, TfLiteNode*)	608	static

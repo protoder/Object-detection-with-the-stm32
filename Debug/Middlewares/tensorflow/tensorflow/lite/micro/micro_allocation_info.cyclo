@@ -1,0 +1,42 @@
+../Middlewares/tensorflow/tensorflow/lite/kernels/op_macros.h:24:13:void AbortImpl()	1
+../Middlewares/tensorflow/tensorflow/lite/micro/micro_allocation_info.cc:37:6:void tflite::AllocationInfoBuilder::UpdateFirstCreated(tflite::AllocationInfo*, int)	2
+../Middlewares/tensorflow/tensorflow/lite/micro/micro_allocation_info.cc:48:6:void tflite::AllocationInfoBuilder::UpdateLastUsed(tflite::AllocationInfo*, int)	1
+../Middlewares/tensorflow/tensorflow/lite/micro/micro_allocation_info.cc:146:14:TfLiteStatus tflite::AllocationInfoBuilder::FreeAllocationInfo()	1
+../Middlewares/tensorflow/third_party/flatbuffers/include/flatbuffers/base.h:425:24:T flatbuffers::EndianScalar(T) [with T = long unsigned int]	1
+../Middlewares/tensorflow/third_party/flatbuffers/include/flatbuffers/base.h:436:3:T flatbuffers::ReadScalar(const void*) [with T = long unsigned int]	1
+../Middlewares/tensorflow/third_party/flatbuffers/include/flatbuffers/vector.h:175:15:flatbuffers::Vector<T, SizeT>::return_type flatbuffers::Vector<T, SizeT>::Get(SizeT) const [with T = flatbuffers::Offset<tflite::Tensor>; SizeT = long unsigned int]	1
+../Middlewares/tensorflow/third_party/flatbuffers/include/flatbuffers/vector.h:175:15:flatbuffers::Vector<T, SizeT>::return_type flatbuffers::Vector<T, SizeT>::Get(SizeT) const [with T = flatbuffers::Offset<tflite::Operator>; SizeT = long unsigned int]	1
+../Middlewares/tensorflow/third_party/flatbuffers/include/flatbuffers/vector.h:175:15:flatbuffers::Vector<T, SizeT>::return_type flatbuffers::Vector<T, SizeT>::Get(SizeT) const [with T = flatbuffers::Offset<tflite::OperatorCode>; SizeT = long unsigned int]	1
+../Middlewares/tensorflow/third_party/flatbuffers/include/flatbuffers/vector.h:175:15:flatbuffers::Vector<T, SizeT>::return_type flatbuffers::Vector<T, SizeT>::Get(SizeT) const [with T = flatbuffers::Offset<tflite::SubGraph>; SizeT = long unsigned int]	1
+../Middlewares/tensorflow/third_party/flatbuffers/include/flatbuffers/vector.h:175:15:flatbuffers::Vector<T, SizeT>::return_type flatbuffers::Vector<T, SizeT>::Get(SizeT) const [with T = flatbuffers::Offset<tflite::Buffer>; SizeT = long unsigned int]	1
+../Middlewares/tensorflow/third_party/flatbuffers/include/flatbuffers/vector.h:175:15:flatbuffers::Vector<T, SizeT>::return_type flatbuffers::Vector<T, SizeT>::Get(SizeT) const [with T = flatbuffers::Offset<tflite::Metadata>; SizeT = long unsigned int]	1
+../Middlewares/tensorflow/third_party/flatbuffers/include/flatbuffers/base.h:425:24:T flatbuffers::EndianScalar(T) [with T = long int]	1
+../Middlewares/tensorflow/third_party/flatbuffers/include/flatbuffers/base.h:436:3:T flatbuffers::ReadScalar(const void*) [with T = long int]	1
+../Middlewares/tensorflow/third_party/flatbuffers/include/flatbuffers/vector.h:175:15:flatbuffers::Vector<T, SizeT>::return_type flatbuffers::Vector<T, SizeT>::Get(SizeT) const [with T = long int; SizeT = long unsigned int]	1
+../Middlewares/tensorflow/third_party/flatbuffers/include/flatbuffers/base.h:425:24:T flatbuffers::EndianScalar(T) [with T = short unsigned int]	1
+../Middlewares/tensorflow/third_party/flatbuffers/include/flatbuffers/base.h:436:3:T flatbuffers::ReadScalar(const void*) [with T = short unsigned int]	1
+../Middlewares/tensorflow/third_party/flatbuffers/include/flatbuffers/table.h:35:13:flatbuffers::voffset_t flatbuffers::Table::GetOptionalFieldOffset(flatbuffers::voffset_t) const	2
+../Middlewares/tensorflow/third_party/flatbuffers/include/flatbuffers/table.h:45:26:T flatbuffers::Table::GetField(flatbuffers::voffset_t, T) const [with T = long unsigned int]	2
+../Middlewares/tensorflow/third_party/flatbuffers/include/flatbuffers/table.h:45:26:T flatbuffers::Table::GetField(flatbuffers::voffset_t, T) const [with T = long int]	2
+../Middlewares/tensorflow/third_party/flatbuffers/include/flatbuffers/base.h:425:24:T flatbuffers::EndianScalar(T) [with T = unsigned char]	1
+../Middlewares/tensorflow/third_party/flatbuffers/include/flatbuffers/base.h:436:3:T flatbuffers::ReadScalar(const void*) [with T = unsigned char]	1
+../Middlewares/tensorflow/third_party/flatbuffers/include/flatbuffers/table.h:45:26:T flatbuffers::Table::GetField(flatbuffers::voffset_t, T) const [with T = unsigned char]	2
+../Middlewares/tensorflow/third_party/flatbuffers/include/flatbuffers/table.h:51:5:P flatbuffers::Table::GetPointer(flatbuffers::voffset_t) [with P = const flatbuffers::Vector<unsigned char>*; OffsetSize = long unsigned int]	2
+../Middlewares/tensorflow/third_party/flatbuffers/include/flatbuffers/table.h:51:5:P flatbuffers::Table::GetPointer(flatbuffers::voffset_t) [with P = const void*; OffsetSize = long unsigned int]	2
+../Middlewares/tensorflow/tensorflow/lite/schema/schema_generated.h:15327:28:const tflite::IfOptions* tflite::Operator::builtin_options_as_IfOptions() const	2
+../Middlewares/tensorflow/tensorflow/lite/schema/schema_generated.h:15360:34:const tflite::CallOnceOptions* tflite::Operator::builtin_options_as_CallOnceOptions() const	2
+../Middlewares/tensorflow/tensorflow/lite/schema/schema_generated.h:15330:31:const tflite::WhileOptions* tflite::Operator::builtin_options_as_WhileOptions() const	2
+../Middlewares/tensorflow/third_party/flatbuffers/include/flatbuffers/table.h:51:5:P flatbuffers::Table::GetPointer(flatbuffers::voffset_t) [with P = const flatbuffers::Vector<long int>*; OffsetSize = long unsigned int]	2
+../Middlewares/tensorflow/third_party/flatbuffers/include/flatbuffers/table.h:51:5:P flatbuffers::Table::GetPointer(flatbuffers::voffset_t) [with P = const flatbuffers::String*; OffsetSize = long unsigned int]	2
+../Middlewares/tensorflow/third_party/flatbuffers/include/flatbuffers/table.h:51:5:P flatbuffers::Table::GetPointer(flatbuffers::voffset_t) [with P = const flatbuffers::Vector<flatbuffers::Offset<tflite::Tensor> >*; OffsetSize = long unsigned int]	2
+../Middlewares/tensorflow/third_party/flatbuffers/include/flatbuffers/table.h:51:5:P flatbuffers::Table::GetPointer(flatbuffers::voffset_t) [with P = const flatbuffers::Vector<flatbuffers::Offset<tflite::Operator> >*; OffsetSize = long unsigned int]	2
+../Middlewares/tensorflow/tensorflow/lite/micro/micro_allocation_info.cc:154:14:TfLiteStatus tflite::AllocationInfoBuilder::ValidateSubgraph(const tflite::SubGraph*, TfLiteEvalTensor*)	6
+../Middlewares/tensorflow/third_party/flatbuffers/include/flatbuffers/table.h:51:5:P flatbuffers::Table::GetPointer(flatbuffers::voffset_t) [with P = const flatbuffers::Vector<flatbuffers::Offset<tflite::OperatorCode> >*; OffsetSize = long unsigned int]	2
+../Middlewares/tensorflow/third_party/flatbuffers/include/flatbuffers/table.h:51:5:P flatbuffers::Table::GetPointer(flatbuffers::voffset_t) [with P = const flatbuffers::Vector<flatbuffers::Offset<tflite::SubGraph> >*; OffsetSize = long unsigned int]	2
+../Middlewares/tensorflow/tensorflow/lite/micro/micro_allocation_info.cc:103:14:TfLiteStatus tflite::AllocationInfoBuilder::CreateAllocationInfo(int)	4
+../Middlewares/tensorflow/tensorflow/lite/micro/micro_allocation_info.cc:178:14:TfLiteStatus tflite::AllocationInfoBuilder::InitializeAllocationInfo(const int32_t*, tflite::SubgraphAllocations*)	12
+../Middlewares/tensorflow/tensorflow/lite/micro/micro_allocation_info.cc:233:14:TfLiteStatus tflite::AllocationInfoBuilder::MarkAllocationLifetimes(int, tflite::internal::ScratchBufferRequest*, tflite::ScratchBufferHandle*, tflite::SubgraphAllocations*)	16
+../Middlewares/tensorflow/tensorflow/lite/micro/micro_allocation_info.cc:54:14:TfLiteStatus tflite::AllocationInfoBuilder::MarkSubgraphLifetimesIfNecessary(const tflite::Operator*, tflite::internal::ScratchBufferRequest*, tflite::ScratchBufferHandle*, tflite::SubgraphAllocations*)	7
+../Middlewares/tensorflow/third_party/flatbuffers/include/flatbuffers/table.h:51:5:P flatbuffers::Table::GetPointer(flatbuffers::voffset_t) [with P = const flatbuffers::Vector<flatbuffers::Offset<tflite::Buffer> >*; OffsetSize = long unsigned int]	2
+../Middlewares/tensorflow/third_party/flatbuffers/include/flatbuffers/table.h:51:5:P flatbuffers::Table::GetPointer(flatbuffers::voffset_t) [with P = const flatbuffers::Vector<flatbuffers::Offset<tflite::Metadata> >*; OffsetSize = long unsigned int]	2
+../Middlewares/tensorflow/tensorflow/lite/micro/micro_allocation_info.cc:338:14:TfLiteStatus tflite::AllocationInfoBuilder::GetOfflinePlannedOffsets(const int32_t**)	8
